@@ -23,7 +23,7 @@ The system is composed of **8 deployments** across the cluster:
 | `grafana` | Monitoring dashboards | 1 |
 | `model-preloader` | One-time Job to pre-download embedding model to shared PVC | — |
 
-<img src=assets/qa_system_architecture_diagram.svg widht=500px height=500px>
+<img src=assets/qa_system_architecture_diagram.svg height=650px>
 
 **Semantic caching** uses `all-MiniLM-L6-v2` (Sentence Transformers) to embed queries into 384-dimensional vectors, stored and searched in Redis. Two queries that are semantically equivalent — even if worded differently — share a cached response, avoiding redundant inference.
 
