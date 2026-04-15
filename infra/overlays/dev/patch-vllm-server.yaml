@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vllm-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vllm
+  template:
+    spec:
+      containers:
+      - name: vllm
+        args:
+          - "maikerdr/EnerGuia-0.5B"
+          - "--gpu-memory-utilization"
+          - "0.65"
+          - "--max-model-len"
+          - "512"
+          - "--dtype"
+          - "float16"
+          - "--enforce-eager"
+        resources:
+          requests:
+            cpu: "2000m"
+            memory: "4Gi"
+          limits:
+            cpu: "4000m"
+            memory: "8Gi"

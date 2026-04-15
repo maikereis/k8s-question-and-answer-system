@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: model-cache-pvc
+spec:
+  # ReadWriteMany allows all 4 app replicas to share one download.
+  # Requires an NFS/CephFS/EFS-backed StorageClass in your cluster.
+  # If your cluster only supports RWO, switch to the InitJob strategy (see comments below).
+  accessModes: [ReadWriteMany]
+  resources:
+    requests:
+      storage: 5Gi
+  # Uncomment and set the right class for your cluster, e.g.:
+  # storageClassName: efs-sc          # AWS EFS
+  # storageClassName: nfs-client      # on-prem NFS
+  # storageClassName: standard-rwx    # GKE Filestore

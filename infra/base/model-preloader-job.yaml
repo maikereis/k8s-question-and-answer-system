@@ -1,0 +1,54 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: model-preloader
+  annotations:
+    # Argo CD PreSync hook to ensure models exist before the app deploys
+    argocd.argoproj.io/hook: PreSync
+    argocd.argoproj.io/hook-delete-policy: BeforeHookCreation
+spec:
+  # Setting to 1 allows for one retry in case of a transient network blip
+  # while still preventing an infinite crash loop.
+  backoffLimit: 1
+  # Automatically clean up the job resource 10 minutes after completion
+  ttlSecondsAfterFinished: 600
+  template:
+    spec:
+      restartPolicy: Never
+      # Security Best Practice: Prevent privilege escalation
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        fsGroup: 1000
+      containers:
+      - name: preloader
+        image: ghcr.io/maikereis/k8s-question-and-answer-system/model-preloader:main-034b37c
+        env:
+        - name: EMBEDDINGS_MODEL
+          value: "all-MiniLM-L6-v2"
+        - name: SENTENCE_TRANSFORMERS_HOME
+          value: "/model-cache/sentence-transformers"
+        - name: HF_HOME
+          value: "/model-cache/hf-home"
+        # Enable hf_transfer for high-speed Rust-based downloads
+        - name: HF_HUB_ENABLE_HF_TRANSFER
+          value: "1"
+        - name: HUGGING_FACE_HUB_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: hf-token-secret
+              key: token
+        volumeMounts:
+        - name: model-cache
+          mountPath: /model-cache
+        resources:
+          requests:
+            cpu: "500m"
+            memory: "1Gi"
+          limits:
+            cpu: "1000m"
+            memory: "2Gi"
+      volumes:
+      - name: model-cache
+        persistentVolumeClaim:
+          claimName: model-cache-pvc

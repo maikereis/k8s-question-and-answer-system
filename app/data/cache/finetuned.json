@@ -1,0 +1,1196 @@
+[
+  {
+    "question": "Qual o prazo para ligação nova residencial urbana monofásica ou bifásica?",
+    "reference": "Até 7 dias úteis.",
+    "type": "factual",
+    "key_facts": [
+      "7",
+      "dias úteis"
+    ],
+    "response": "Para novos dispositivos residenciais, o prazo para a licença de uso é de 15 dias úteis após o recebimento do pedido. Para dispositivos de distribuição, o prazo é de 30 dias úteis.",
+    "metrics": {
+      "latency_seconds": 1.94,
+      "timestamp": "2026-04-14T11:24:11.609403",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o prazo para ligação nova trifásica residencial ou comercial de baixa tensão em área urbana?",
+    "reference": "Até 15 dias úteis.",
+    "type": "factual",
+    "key_facts": [
+      "15",
+      "dias úteis"
+    ],
+    "response": "Para ligar uma nova trifásica residencial ou comercial de baixa tensão em área urbana, o prazo máximo é de 15 dias úteis após o recebimento do pedido. Se o serviço estiver concluído antes desse prazo, você pode solicitar reavaliação.",
+    "metrics": {
+      "latency_seconds": 2.72,
+      "timestamp": "2026-04-14T11:24:14.329534",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o prazo máximo para ligação nova em média ou alta tensão?",
+    "reference": "O prazo é definido em contrato, não podendo ultrapassar 90 dias úteis.",
+    "type": "factual",
+    "key_facts": [
+      "90",
+      "dias úteis",
+      "contrato"
+    ],
+    "response": "O prazo máximo para ligação nova em média ou alta tensão é de 15 dias úteis após a entrega do contrato. Em casos excepcionais, pode ser adiado até 30 dias, mas sempre com autorização do consumidor.",
+    "metrics": {
+      "latency_seconds": 2.39,
+      "timestamp": "2026-04-14T11:24:16.717262",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o prazo de religação em área urbana após pagamento do débito?",
+    "reference": "Até 4 horas após a confirmação do pagamento.",
+    "type": "factual",
+    "key_facts": [
+      "4",
+      "horas"
+    ],
+    "response": "O prazo para a realização da religação depende do tipo de débito: parcelamento, parcela única ou parcela por parcela. Para parcelamento, o prazo máximo é 12 meses. Para parcela única, o prazo máximo é 36 meses. Por favor, entre em contato pelo telefone (17) 3954-0800 ou pelo site da ANEEL.",
+    "metrics": {
+      "latency_seconds": 3.87,
+      "timestamp": "2026-04-14T11:24:20.588285",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o prazo de religação em área rural após pagamento do débito?",
+    "reference": "Até 24 horas após a confirmação do pagamento.",
+    "type": "factual",
+    "key_facts": [
+      "24",
+      "horas"
+    ],
+    "response": "O prazo para a realização da religação em áreas rurais depende do sistema de distribuição de energia localizado. No caso de distribuidores privados, geralmente há 15 dias para a realização da religação. Caso seja feita uma solicitação ao governo federal, o prazo pode variar entre 30 e 60 dias. Em casos mais complexos, como distribuidores públicos, o prazo pode ser maior. Por favor, consulte diretamente com a distribuidora ou o órgão responsável pelo serviço.",
+    "metrics": {
+      "latency_seconds": 4.36,
+      "timestamp": "2026-04-14T11:24:24.948653",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Em que situação a religação é gratuita?",
+    "reference": "A religação é gratuita quando o corte tiver ocorrido por erro da distribuidora.",
+    "type": "factual",
+    "key_facts": [
+      "gratuita",
+      "erro da distribuidora"
+    ],
+    "response": "A distribuidora deve cobrar apenas pelo consumo, sem restrições de direito à luz. O prazo para pagamento é 30 dias após o recebimento do boleto.",
+    "metrics": {
+      "latency_seconds": 1.39,
+      "timestamp": "2026-04-14T11:24:26.344412",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o prazo máximo para restabelecimento de energia em área urbana?",
+    "reference": "Até 4 horas para interrupções em redes de baixa tensão.",
+    "type": "factual",
+    "key_facts": [
+      "4",
+      "horas",
+      "área urbana"
+    ],
+    "response": "O prazo máximo para restabelecer energia em áreas urbanas é de 15 dias após a data de entrega. Em áreas rurais, esse prazo é de 30 dias.",
+    "metrics": {
+      "latency_seconds": 1.45,
+      "timestamp": "2026-04-14T11:24:27.794054",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o prazo máximo para restabelecimento de energia em área rural?",
+    "reference": "Até 8 horas.",
+    "type": "factual",
+    "key_facts": [
+      "8",
+      "horas",
+      "área rural"
+    ],
+    "response": "O prazo máximo para restabelecer a cobertura elétrica em áreas rurais é de 15 dias após a data de emissão da nota de restabelecimento. Se a demanda estiver fora desse prazo, a distribuidora pode recorrer à Justiça Eleitoral.",
+    "metrics": {
+      "latency_seconds": 2.99,
+      "timestamp": "2026-04-14T11:24:30.784191",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "O consumidor precisa solicitar a compensação se a distribuidora ultrapassar o prazo de restabelecimento?",
+    "reference": "Não. A compensação é feita automaticamente na fatura seguinte, sem necessidade de solicitação por parte do consumidor.",
+    "type": "factual",
+    "key_facts": [
+      "automaticamente",
+      "fatura seguinte",
+      "sem necessidade de solicitação"
+    ],
+    "response": "Sim. O prazo de restabelecimento é de 15 dias contados desde que a demanda seja realizada. Se a distribuidora não completar esse prazo, pode exigir a compensação por danos materiais ou intangíveis.",
+    "metrics": {
+      "latency_seconds": 1.89,
+      "timestamp": "2026-04-14T11:24:32.679773",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "A partir de quantas horas sem energia em área urbana o consumidor tem direito à compensação mesmo em eventos climáticos extremos, conforme as novas regras de outubro de 2025?",
+    "reference": "A partir de 24 horas sem energia em área urbana.",
+    "type": "factual",
+    "key_facts": [
+      "24 horas",
+      "área urbana",
+      "eventos climáticos"
+    ],
+    "response": "O prazo para receber a compensação varia dependendo do tipo de evento climático e do local. Em áreas urbanas, o prazo máximo é de 16 horas sem energia. Para áreas rurais, o prazo é de até 48 horas sem energia. Se o consumo for menor que 30% do total anual, a compensação pode ser concedida por até 72 horas sem energia. As restantes horas devem ser cobradas regularmente.",
+    "metrics": {
+      "latency_seconds": 4.33,
+      "timestamp": "2026-04-14T11:24:37.007394",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "A partir de quantas horas sem energia em área rural o consumidor tem direito à compensação em situações de emergência climática?",
+    "reference": "A partir de 48 horas sem energia em área rural.",
+    "type": "factual",
+    "key_facts": [
+      "48 horas",
+      "área rural"
+    ],
+    "response": "O prazo para receber a compensação varia dependendo do local. Em áreas rurais, o prazo pode ser até 24 horas, mas deve ser feito dentro de 10 minutos após o início da emergência climática. Se a situação durar mais de 24 horas, o prazo aumenta para 36 horas. O prazo máximo é de 72 horas.",
+    "metrics": {
+      "latency_seconds": 2.9,
+      "timestamp": "2026-04-14T11:24:39.910835",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Em quanto tempo a distribuidora deve comunicar ao consumidor a causa de uma interrupção após conhecê-la?",
+    "reference": "Em até 15 minutos após o conhecimento da causa, ou em até 1 hora após o reconhecimento da ocorrência, mesmo que a causa não tenha sido totalmente apurada.",
+    "type": "factual",
+    "key_facts": [
+      "15 minutos",
+      "1 hora"
+    ],
+    "response": "A distribuidora deve informar o motivo da interrupção de energia até 24 horas após a notificação do consumidor.",
+    "metrics": {
+      "latency_seconds": 0.96,
+      "timestamp": "2026-04-14T11:24:40.868975",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Com que frequência o site da distribuidora deve ser atualizado durante uma ocorrência de interrupção?",
+    "reference": "A cada 30 minutos, com a lista de ocorrências abertas, número de consumidores afetados e mapa das áreas atingidas.",
+    "type": "factual",
+    "key_facts": [
+      "30 minutos",
+      "mapa",
+      "ocorrências abertas"
+    ],
+    "response": "O site da distribuidora deve ser atualizado regularmente para garantir que os usuários estejam informados sobre as alterações de preços, condições especiais e restrições. O tempo de atualização varia dependendo do sistema operacional da distribuidora e das políticas de segurança de dados da empresa. Em geral, a distribuidora deve enviar novos arquivos de atualizações regulares após 30 dias desde a data da interrupção.",
+    "metrics": {
+      "latency_seconds": 3.55,
+      "timestamp": "2026-04-14T11:24:44.423092",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "A distribuidora pode ser multada por não comunicar corretamente os consumidores durante uma interrupção?",
+    "reference": "Sim. O descumprimento das obrigações de comunicação gera multa para a distribuidora, além de outras punições cabíveis.",
+    "type": "factual",
+    "key_facts": [
+      "multa",
+      "descumprimento"
+    ],
+    "response": "Sim. A distribuidora pode ser multada por não comunicar corretamente os consumidores durante uma interrupção. O prazo para o pagamento das multas é de 10 dias após a data da interrupção.",
+    "metrics": {
+      "latency_seconds": 2.26,
+      "timestamp": "2026-04-14T11:24:46.684164",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o prazo para um consumidor solicitar ressarcimento por equipamento danificado por falha no fornecimento?",
+    "reference": "Até 5 anos após o dano.",
+    "type": "factual",
+    "key_facts": [
+      "5 anos"
+    ],
+    "response": "O prazo para requerer ressarcimento pela danificação de equipamentos por falhas no fornecimento é de 10 anos desde a data da instalação ou a primeira notificação pelo distribuidor.",
+    "metrics": {
+      "latency_seconds": 1.7,
+      "timestamp": "2026-04-14T11:24:48.383485",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "O que é o rito simplificado de ressarcimento por danos a equipamentos?",
+    "reference": "Pedidos feitos em até 90 dias seguem um procedimento mais ágil de ressarcimento, sem necessidade de aguardar o processo completo de vistoria.",
+    "type": "factual",
+    "key_facts": [
+      "90 dias",
+      "rito simplificado"
+    ],
+    "response": "O rito simplificado de ressarcimento por danos a equipamentos é uma medida adotada pela ANEEL para facilitar o processo de ressarcimento dos consumidores após um incidente. É aplicável tanto para aqueles que tiveram problemas com equipamentos de energia elétrica como também para aqueles que tenham sido atingidos por incêndios ou outros danos. O procedimento é simples: o consumidor apresenta o incidente à sua distribuidora localizada na área de atendimento, onde ele pode pedir o ressarcimento. A distribuidora analisa o caso e, se o consumidor estiver satisfeito, realiza o ressarcimento.",
+    "metrics": {
+      "latency_seconds": 7.22,
+      "timestamp": "2026-04-14T11:24:55.604093",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "O consumidor pode consertar o equipamento danificado antes da vistoria da distribuidora?",
+    "reference": "Sim. O consumidor pode consertar o equipamento por conta própria, sem autorização da distribuidora, antes do término do prazo de vistoria, sem perder o direito ao ressarcimento.",
+    "type": "factual",
+    "key_facts": [
+      "pode consertar",
+      "sem autorização",
+      "sem perder o direito"
+    ],
+    "response": "Sim, o consumidor tem direito à reparação gratuita até 100% do valor pago pela distribuidora. Se o equipamento estiver danificado por causa do fornecedor, ele pode fazer o reparo sem pagar a taxa.",
+    "metrics": {
+      "latency_seconds": 2.93,
+      "timestamp": "2026-04-14T11:24:58.532395",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Em quantos dias a distribuidora deve responder a um pedido de ressarcimento por danos em equipamentos?",
+    "reference": "A distribuidora deve realizar vistoria técnica ou responder ao consumidor em até 10 dias corridos após o registro do pedido.",
+    "type": "factual",
+    "key_facts": [
+      "10 dias corridos"
+    ],
+    "response": "A distribuidora deve responder até 10 dias úteis após o recebimento do pedido de ressarcimento.",
+    "metrics": {
+      "latency_seconds": 1.29,
+      "timestamp": "2026-04-14T11:24:59.821452",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o prazo para troca de medidor com defeito comprovado?",
+    "reference": "Até 10 dias úteis após a solicitação.",
+    "type": "factual",
+    "key_facts": [
+      "10 dias úteis"
+    ],
+    "response": "O prazo para troca de medidor com defeito comprovado varia dependendo do tipo de contrato e do serviço prestado. O prazo máximo é de 15 dias após a entrega do equipamento. Se houver danos graves ou problemas de segurança, pode ser exigido que o cliente gere uma nova inscrição. Por favor, entre em contato pelo telefone da distribuidora ou pelo site da ANEEL.",
+    "metrics": {
+      "latency_seconds": 3.9,
+      "timestamp": "2026-04-14T11:25:03.726259",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Quem arca com o custo da troca de medidor com defeito?",
+    "reference": "A distribuidora, sem custo para o consumidor.",
+    "type": "factual",
+    "key_facts": [
+      "distribuidora",
+      "sem custo"
+    ],
+    "response": "O custo da troca de medidor com defeito é cobrado pela distribuidora. O prazo para recolhimento varia dependendo do tipo de serviço e do local. Por exemplo, o prazo para recolhimento de energia por conta própria é de 15 dias úteis após o atendimento.",
+    "metrics": {
+      "latency_seconds": 2.63,
+      "timestamp": "2026-04-14T11:25:06.362170",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Por quantos anos retroativos o consumidor pode ser cobrado em caso de fraude no medidor?",
+    "reference": "Por até 5 anos retroativos.",
+    "type": "factual",
+    "key_facts": [
+      "5 anos"
+    ],
+    "response": "O prazo para cobrança por fraude no medidor é de 10 anos desde que seja notificado pelo consumidor ou autorizado pela distribuidora.",
+    "metrics": {
+      "latency_seconds": 1.38,
+      "timestamp": "2026-04-14T11:25:07.739625",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o desconto da Tarifa Social para consumo de até 80 kWh por mês após julho de 2025?",
+    "reference": "Isenção total (100%) sobre o componente de energia para o consumo de até 80 kWh por mês.",
+    "type": "factual",
+    "key_facts": [
+      "100%",
+      "isenção total",
+      "80 kWh"
+    ],
+    "response": "Para quem tem até 80 kWh de consumo mensal, o desconto da Tarifa Social é de 10% sobre o valor pago pelo consumidor. O valor final será calculado somando o desconto ao valor do consumo.",
+    "metrics": {
+      "latency_seconds": 2.04,
+      "timestamp": "2026-04-14T11:25:09.781004",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "O consumidor com Tarifa Social que consome acima de 80 kWh por mês recebe desconto na parcela excedente?",
+    "reference": "Não. A parcela de consumo acima de 80 kWh não recebe desconto.",
+    "type": "factual",
+    "key_facts": [
+      "não",
+      "sem desconto",
+      "acima de 80 kWh"
+    ],
+    "response": "Sim. O desconto é aplicável para quem tem tarifa social e consume mais de 80 kWh por mês. A taxa é de 15% sobre o valor total da conta após a parcela excedente.",
+    "metrics": {
+      "latency_seconds": 1.75,
+      "timestamp": "2026-04-14T11:25:11.536197",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "O desconto da Tarifa Social inclui o ICMS e a contribuição de iluminação pública?",
+    "reference": "Não. O ICMS e a contribuição de iluminação pública continuam sendo cobrados, pois dependem de legislação estadual e municipal e não integram o desconto federal.",
+    "type": "factual",
+    "key_facts": [
+      "não",
+      "ICMS",
+      "iluminação pública",
+      "continuam cobrados"
+    ],
+    "response": "Sim. O ICMS é cobrado junto à distribuidora, mas a contribuição de iluminação pública é cobrada pela distribuidora e não pelo consumidor.",
+    "metrics": {
+      "latency_seconds": 1.31,
+      "timestamp": "2026-04-14T11:25:12.848155",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Quais grupos têm direito à Tarifa Social de Energia Elétrica?",
+    "reference": "Famílias inscritas no CadÚnico com renda per capita até ½ salário mínimo; beneficiários do BPC (idosos 65+ ou pessoas com deficiência); famílias inscritas no CadÚnico com renda até 3 salários mínimos e membro que utilize equipamentos elétricos médicos de forma contínua; famílias indígenas e quilombolas inscritas no CadÚnico; famílias atendidas por sistemas isolados na região Norte.",
+    "type": "factual",
+    "key_facts": [
+      "CadÚnico",
+      "BPC",
+      "½ salário mínimo",
+      "equipamentos elétricos médicos"
+    ],
+    "response": "As tarifas sociais são destinadas a pessoas que não possuem emprego formal ou que trabalham temporariamente. As tarifas individuais são aplicáveis apenas aos consumidores que atendem às condições estabelecidas pela distribuidora.",
+    "metrics": {
+      "latency_seconds": 1.9,
+      "timestamp": "2026-04-14T11:25:14.748879",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "O que é o Desconto Social de Energia Elétrica e quando entrou em vigor?",
+    "reference": "O Desconto Social é uma nova modalidade criada pela Lei 15.235/2025 para famílias inscritas no CadÚnico com renda per capita entre ½ e 1 salário mínimo. Garante tarifa reduzida e isenção das quotas da CDE para consumo de até 120 kWh/mês. Entrou em vigor em 1º de janeiro de 2026.",
+    "type": "factual",
+    "key_facts": [
+      "Desconto Social",
+      "½ e 1 salário mínimo",
+      "120 kWh",
+      "janeiro de 2026"
+    ],
+    "response": "O desconto social de energia elétrica é uma política adotada pela ANEEL para incentivar a utilização de equipamentos de distribuidora privada. Ele entra em vigor em 1º de janeiro de 2023. O benefício é aplicável aos consumidores que usam equipamentos de distribuidora privada (como gás natural, energia elétrica, água potável e água química) e tem até dez anos de uso.",
+    "metrics": {
+      "latency_seconds": 3.5,
+      "timestamp": "2026-04-14T11:25:18.245219",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Quantas unidades consumidoras podem receber o benefício da Tarifa Social para uma mesma família?",
+    "reference": "Apenas uma unidade consumidora por família.",
+    "type": "factual",
+    "key_facts": [
+      "uma",
+      "unidade consumidora"
+    ],
+    "response": "A tarifa social é aplicável apenas aos consumidores que atendem ao mesmo endereço. Portanto, se você tem mais de uma casa, só pode receber o benefício para as famílias que residem na mesma área.",
+    "metrics": {
+      "latency_seconds": 1.6,
+      "timestamp": "2026-04-14T11:25:19.841628",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "O que acontece se o consumidor não atualizar o cadastro no CadÚnico por mais de 2 anos?",
+    "reference": "A família perde o benefício da Tarifa Social.",
+    "type": "factual",
+    "key_facts": [
+      "2 anos",
+      "perde o benefício"
+    ],
+    "response": "Se o consumidor não atualizar o cadastro no CadÚnico por mais de 2 anos, pode ser considerado desatualizado. O consumidor tem direito à restrição de energia até 15 dias após o último ato de restrição. Se o consumidor ainda estiver sem energia após esse prazo, pode ser encerrado.",
+    "metrics": {
+      "latency_seconds": 4.41,
+      "timestamp": "2026-04-14T11:25:24.257606",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual norma reformulou a Tarifa Social em 2025?",
+    "reference": "A Lei nº 15.235/2025, conversão da Medida Provisória nº 1.300/2025, que instituiu o programa 'Luz do Povo'.",
+    "type": "factual",
+    "key_facts": [
+      "Lei 15.235/2025",
+      "MP 1.300/2025",
+      "Luz do Povo"
+    ],
+    "response": "A nova tarifa social foi reformulada pela ANEEL em 1º de janeiro de 2025. A nova tarifa incluiu uma taxa adicional para o consumo de energia elétrica que não está dentro do prazo de 30 dias após a emissão do contrato.",
+    "metrics": {
+      "latency_seconds": 2.92,
+      "timestamp": "2026-04-14T11:25:27.176153",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "O que acontece com a cobrança quando a distribuidora cobra um valor indevido?",
+    "reference": "A distribuidora deve restituir o valor cobrado indevidamente em dobro ao consumidor, conforme o Código de Defesa do Consumidor.",
+    "type": "factual",
+    "key_facts": [
+      "em dobro",
+      "restituição",
+      "Código de Defesa do Consumidor"
+    ],
+    "response": "A distribuidora deve informar o cliente imediatamente, mas não pode exigir que ele compare à unidade física para fazer o pedido. Se houver dúvida sobre o valor, faça uma consulta ao 160 ou pelo site da distribuidora.",
+    "metrics": {
+      "latency_seconds": 3.06,
+      "timestamp": "2026-04-14T11:25:30.242370",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "A distribuidora pode exigir que o novo morador pague dívidas de energia do morador anterior?",
+    "reference": "Não. A dívida pertence ao titular da conta (pessoa), não ao imóvel. A distribuidora não pode cobrar o novo morador nem exigir que ele assine qualquer documento assumindo a dívida anterior.",
+    "type": "factual",
+    "key_facts": [
+      "não pode cobrar",
+      "dívida pertence ao titular",
+      "não ao imóvel"
+    ],
+    "response": "Sim. A distribuidora tem direito à cobrança de dívidas anteriores para garantir a segurança energética e evitar despesas desnecessárias.",
+    "metrics": {
+      "latency_seconds": 1.41,
+      "timestamp": "2026-04-14T11:25:31.651010",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "O consumidor eletrodependente tem prioridade no atendimento em emergências?",
+    "reference": "Sim. Consumidores que dependem de equipamentos elétricos para sobrevivência, devidamente cadastrados junto à distribuidora, têm prioridade no atendimento em emergências, conforme norma da ANEEL.",
+    "type": "factual",
+    "key_facts": [
+      "prioridade",
+      "cadastrado",
+      "equipamentos elétricos",
+      "sobrevivência"
+    ],
+    "response": "Sim. O prazo para o atendimento é de 24 horas, mesmo que seja uma emergência. Se a situação estiver prejudicando a segurança do consumidor, pode ser solicitado ao setor de distribuição.",
+    "metrics": {
+      "latency_seconds": 1.69,
+      "timestamp": "2026-04-14T11:25:33.344504",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual é o acréscimo na fatura na Bandeira Tarifária Amarela?",
+    "reference": "R$ 1,885 por 100 kWh consumidos.",
+    "type": "factual",
+    "key_facts": [
+      "R$ 1,885",
+      "100 kWh"
+    ],
+    "response": "O acréscimo na fatura na Bandeira Tarifária Amarela é de 10% sobre o valor total da conta. O valor final será exato, sem acréscimos ou descontos.",
+    "metrics": {
+      "latency_seconds": 2.37,
+      "timestamp": "2026-04-14T11:25:35.715205",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual é o acréscimo na fatura na Bandeira Vermelha Patamar 2?",
+    "reference": "R$ 9,492 por 100 kWh consumidos.",
+    "type": "factual",
+    "key_facts": [
+      "R$ 9,492",
+      "100 kWh"
+    ],
+    "response": "O acréscimo na fatura na Bandeira Vermelha Patamar 2 é de R$ 10,56 por mês. O valor varia dependendo do tipo de consumo (industrial ou residencial) e do período de uso.",
+    "metrics": {
+      "latency_seconds": 2.73,
+      "timestamp": "2026-04-14T11:25:38.448833",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Quem define mensalmente qual bandeira tarifária está em vigor?",
+    "reference": "A ANEEL (Agência Nacional de Energia Elétrica).",
+    "type": "factual",
+    "key_facts": [
+      "ANEEL",
+      "mensalmente"
+    ],
+    "response": "A distribuidora tem que definir o tipo de bandeira tarifária para cada região antes de 1º de janeiro de cada ano. O prazo é de 30 dias após a publicação do relatório de desempenho.",
+    "metrics": {
+      "latency_seconds": 1.88,
+      "timestamp": "2026-04-14T11:25:40.334337",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Em quantas vezes uma pessoa física pode parcelar débitos com a distribuidora?",
+    "reference": "Em até 24 vezes, com entrada mínima de 10% do valor total.",
+    "type": "factual",
+    "key_facts": [
+      "24 vezes",
+      "10%",
+      "entrada mínima"
+    ],
+    "response": "A parcela mínima para pagamento de débito com distribuidora é de 10% do valor total. O prazo máximo é de 36 meses.",
+    "metrics": {
+      "latency_seconds": 1.61,
+      "timestamp": "2026-04-14T11:25:41.950074",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Uma empresa (pessoa jurídica) pode parcelar débitos de energia? Em quantas vezes?",
+    "reference": "Sim, em até 12 vezes.",
+    "type": "factual",
+    "key_facts": [
+      "12 vezes",
+      "pessoa jurídica"
+    ],
+    "response": "Sim, as empresas podem parcelar débitos de energia elétrica. O prazo máximo para parcelamento é 12 meses, mas o prazo mínimo é 30 dias úteis. A parcela deve ser feita por meio do site da distribuidora ou pelo telefone da distribuidora.",
+    "metrics": {
+      "latency_seconds": 2.08,
+      "timestamp": "2026-04-14T11:25:44.035724",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "A distribuidora pode cortar o fornecimento durante um parcelamento ativo?",
+    "reference": "Não, desde que as parcelas estejam sendo pagas em dia.",
+    "type": "factual",
+    "key_facts": [
+      "não pode cortar",
+      "parcelas em dia"
+    ],
+    "response": "Sim. O prazo para cancelamento de parcela é de 15 dias úteis após o vencimento. Se o prazo for excedido, a distribuidora pode encerrar o serviço sem aviso prévio.",
+    "metrics": {
+      "latency_seconds": 1.51,
+      "timestamp": "2026-04-14T11:25:45.542478",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o prazo de validade dos créditos gerados por microgeração distribuída (energia solar)?",
+    "reference": "60 meses (5 anos).",
+    "type": "factual",
+    "key_facts": [
+      "60 meses",
+      "5 anos"
+    ],
+    "response": "O prazo para validação dos créditos gerados pela distribuidora por meio de microgeração distribuída é de 12 meses após a emissão do contrato. Se houver alterações ou restrições, os créditos podem ser validados mais cedo.",
+    "metrics": {
+      "latency_seconds": 2.99,
+      "timestamp": "2026-04-14T11:25:48.535724",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o prazo para análise técnica de pedido de conexão de microgeração de até 75 kW?",
+    "reference": "Até 30 dias.",
+    "type": "factual",
+    "key_facts": [
+      "30 dias"
+    ],
+    "response": "O prazo para análise técnica de um pedido de microgeração de até 75 kW é de 10 dias úteis após a recepção da solicitação. Se houver alterações, o prazo pode ser adiado por até 20 dias.",
+    "metrics": {
+      "latency_seconds": 2.03,
+      "timestamp": "2026-04-14T11:25:50.570771",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Sistemas de geração distribuída instalados antes de janeiro de 2023 pagam a Tarifa Fio B?",
+    "reference": "Não. Sistemas conectados antes de janeiro de 2023 mantêm isenção total da Tarifa Fio B por 25 anos a partir da data de conexão.",
+    "type": "factual",
+    "key_facts": [
+      "não pagam",
+      "isenção total",
+      "25 anos"
+    ],
+    "response": "Sim. Os sistemas de geração distribuídas que foram instalados antes de janeiro de 2023 podem ser considerados como equipamentos de distribuição e paguem a Tarifa Fio B.",
+    "metrics": {
+      "latency_seconds": 1.28,
+      "timestamp": "2026-04-14T11:25:51.855676",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual é a diferença entre microgeração e minigeração distribuída?",
+    "reference": "Microgeração corresponde a sistemas com potência instalada de até 75 kW. Minigeração corresponde a sistemas de 75 kW até 5 MW.",
+    "type": "factual",
+    "key_facts": [
+      "75 kW",
+      "5 MW",
+      "microgeração",
+      "minigeração"
+    ],
+    "response": "Microgeração é o uso de equipamentos pequenos para gerar energia, enquanto minigeração distribuída envolve a distribuição de energia por larga escala através de redes elétricas.",
+    "metrics": {
+      "latency_seconds": 1.31,
+      "timestamp": "2026-04-14T11:25:53.169503",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o canal gratuito da ANEEL para registrar reclamações?",
+    "reference": "O telefone 167 (gratuito) ou o portal aneel.gov.br.",
+    "type": "factual",
+    "key_facts": [
+      "167",
+      "gratuito",
+      "aneel.gov.br"
+    ],
+    "response": "O canal gratuito da ANEEL para registrar reclamações é o 160. Você pode acessar ele através do site da ANEEL ou pelo aplicativo Android e iOS.",
+    "metrics": {
+      "latency_seconds": 1.13,
+      "timestamp": "2026-04-14T11:25:54.299722",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual é a principal norma que consolida os direitos e deveres do consumidor de energia elétrica?",
+    "reference": "A Resolução Normativa ANEEL nº 1.000/2021 (REN 1.000), atualizada diversas vezes, incluindo pela REN 1.147, de 09/12/2025.",
+    "type": "factual",
+    "key_facts": [
+      "REN 1.000/2021",
+      "Resolução Normativa"
+    ],
+    "response": "A Norma 130/2021, publicada no Diário Oficial da União na última quinta-feira (28), é a principal norma que regula o direito do consumidor de energia elétrica no Brasil. Esta norma define os direitos do consumidor, as obrigações do fornecedor, a distribuição de informações e a transparência. Além disso, trata sobre a cobrança por danos ao consumidor e a distribuição de créditos.",
+    "metrics": {
+      "latency_seconds": 5.18,
+      "timestamp": "2026-04-14T11:25:59.477235",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "O que são os indicadores DEC e FEC?",
+    "reference": "DEC é a Duração Equivalente de Interrupção por Unidade Consumidora e FEC é a Frequência Equivalente de Interrupção por Unidade Consumidora. São indicadores de qualidade do serviço regulados pela ANEEL, usados para calcular compensações automáticas ao consumidor.",
+    "type": "factual",
+    "key_facts": [
+      "DEC",
+      "FEC",
+      "duração",
+      "frequência",
+      "qualidade"
+    ],
+    "response": "Os indicadores DEC (Desempenho Energético) e FEC (Frequência Eletromagnética) são normas da ANEEL que regulam o controle e fiscalização das distribuidoras sobre as condições energéticas dos seus clientes. O DEC define critérios para a eficiência energética, enquanto o FEC define a frequência de distribuição adequada. As distribuidoras têm que atender às normas DEC e FEC para garantir a qualidade da energia fornecida.",
+    "metrics": {
+      "latency_seconds": 5.89,
+      "timestamp": "2026-04-14T11:26:05.368754",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Quanto custa instalar um sistema de energia solar fotovoltaica?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "O custo varia muito dependendo do tipo de instalador, localização e quantidade de瓦is que você deseja gerar. O valor inicial pode ser entre R$ 10 mil e R$ 30 mil, mas o investimento final pode chegar a R$ 25 mil. A ANEEL regulamentou os custos para garantir que as tarifas estejam dentro do patamar mínimo.",
+    "metrics": {
+      "latency_seconds": 4.27,
+      "timestamp": "2026-04-14T11:26:09.645004",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual distribuidora de energia atende minha cidade?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "Para responder à sua pergunta, preciso saber qual cidade você está localizada. Você pode entrar em contato diretamente com a distribuidora ou acessar o site oficial da distribuidora para obter informações detalhadas sobre a distribuidora que atende sua área.",
+    "metrics": {
+      "latency_seconds": 2.84,
+      "timestamp": "2026-04-14T11:26:12.490959",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Quero trocar para energia eólica na minha casa. Como faço?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "Para troca de energia eólica, você precisa ter o certificado de uso de energia elétrica e o número do contrato. Procure o serviço de distribuidora localizada pelo endereço da sua residência. Ligue para o telefone da distribuidora ou visite o endereço da sua residência.",
+    "metrics": {
+      "latency_seconds": 2.45,
+      "timestamp": "2026-04-14T11:26:14.938854",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o valor da minha conta de luz este mês?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "Para obter o valor da sua conta atual, você precisa acessar o site oficial da distribuidora ou entrar em contato diretamente pelo telefone. O valor pode variar dependendo do tipo de serviço (comercial, residencial, etc.) e do ano em que você fizer a consulta.",
+    "metrics": {
+      "latency_seconds": 2.12,
+      "timestamp": "2026-04-14T11:26:17.058976",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Como faço para contratar um eletricista para reformar a instalação da minha casa?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "Para contratar um eletricista para realizar o serviço de reforma de instalação de luz, você precisa seguir os seguintes passos:\n\n1. **Escolha um profissional**: Faça uma pesquisa sobre os equipamentos que você deseja reparar (como caixa de água, gás, etc.) e procure por recomendações de clientes anteriores.\n\n2. **Fale com o distribuidor**: Se você não tiver certeza sobre quem deve ser contratado ou se está procurando por serviços de alta qualidade, fale com o distribuidor local. Ele pode fornecer indicações de profissionais confiáveis.\n\n3. **Realize a inscrição**: Após a escolha, registre-se no sistema da distribuidora. Isso garante que você tenha acesso à informação mais recente sobre os equipamentos instalados.\n\n4. **Preparação do local**: Antes de entrar na casa, prepare o local com as ferramentas necessárias (pincel, pano limpo, etc.). Também é importante verificar se há riscos de acidente na área de trabalho.\n\n5. **Concorrência**: Procure pelo distribuidor que oferece",
+    "metrics": {
+      "latency_seconds": 7.76,
+      "timestamp": "2026-04-14T11:26:24.824700",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Qual o melhor banco para fazer o financiamento de painéis solares?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "O Banco do Brasil tem uma política de crédito especializada para investidores em energia renovável, incluindo painéis solares. Para financiar projetos de energia solar, você pode usar o Boleto de Crédito (BOC) ou o Crediteiro de Crédito (CRB). O CRB oferece prazos mais flexíveis que os bancos tradicionais. Além disso, o Boleto de Crédito também permite a cobrança por parcela mensal. Se tiver dúvidas sobre o prazo ou o tipo de financiamento, entre em contato com a distribuidora do seu projeto.",
+    "metrics": {
+      "latency_seconds": 5.66,
+      "timestamp": "2026-04-14T11:26:30.482135",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Meu vizinho está usando energia elétrica de forma irregular. O que eu faço?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "Se você percebe que o seu vizinho está usando energia de forma irregular ou sem autorização, tente fazer uma denúncia à distribuidora. Isso pode ser feito através do site da distribuidora ou pelo telefone 165. Se houver danos graves, o consumidor tem direito a reclamações especiais.",
+    "metrics": {
+      "latency_seconds": 3.31,
+      "timestamp": "2026-04-14T11:26:33.788837",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Quais documentos são necessários para solicitar ligação nova?",
+    "reference": "CPF ou CNPJ do titular, comprovante de propriedade ou contrato de locação. Para média e alta tensão, também é necessário projeto elétrico aprovado.",
+    "type": "procedural",
+    "key_facts": [
+      "CPF",
+      "CNPJ",
+      "comprovante de propriedade",
+      "contrato de locação",
+      "projeto elétrico"
+    ],
+    "response": "Para solicitação de ligação nova, você precisa apresentar o endereço atualizado, o número de telefone fixo ou celular atualizado, a data de emissão do contrato de energia e o nome completo do consumidor. Além disso, você deve fornecer uma cópia do RG ou CPF. Se o cliente já tenha sido registrado como consumidor por meio de outro meio (como cartão de débito), também é necessário a documentação correspondente.",
+    "metrics": {
+      "latency_seconds": 3.1,
+      "timestamp": "2026-04-14T11:26:36.888309",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Como solicitar ressarcimento por equipamento danificado por falha no fornecimento?",
+    "reference": "O consumidor deve registrar o pedido junto à distribuidora apresentando: nota fiscal ou comprovante de compra do equipamento, três orçamentos de conserto (ou laudo técnico de irrecuperabilidade), fotos ou vídeos do dano e fatura do período da ocorrência.",
+    "type": "procedural",
+    "key_facts": [
+      "nota fiscal",
+      "três orçamentos",
+      "laudo técnico",
+      "fotos",
+      "fatura do período"
+    ],
+    "response": "Para solicitar ressarcimento por equipamento danificado por falha no fornecimento, siga os seguintes passos:\n\n1. **Identifique o equipamento danificado**: Acesse o site da distribuidora ou o aplicativo da ANEEL para verificar a localização do equipamento.\n\n2. **Realize o reparo**: Procure um profissional especialista em energia elétrica localizado no local do danado.\n\n3. **Comprima o ressarcimento**: O profissional irá fazer o ressarcimento através do sistema da distribuidora. Ele receberá o valor correspondente ao danado.\n\n4. **Anexe o ressarcimento**: Após o pagamento, anexe o documento de ressarcimento à sua conta bancária ou à distribuidora.\n\n5. **Fique atento aos prazos**: O ressarcimento deve ser feito dentro dos prazos estabelecidos pela distribuidora. Se houver restrições, entre em contato pelo telefone da distribuidora ou pelo número 0800-769-7777.\n\nSe o ressarcimento não foi realizado conforme o prazo estabelec",
+    "metrics": {
+      "latency_seconds": 8.75,
+      "timestamp": "2026-04-14T11:26:45.635099",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "O que fazer se a distribuidora não resolver minha reclamação?",
+    "reference": "O consumidor deve escalar seguindo esta ordem: (1) Ouvidoria da distribuidora, com prazo de resposta de até 10 dias úteis; (2) ANEEL pelo telefone 167 (gratuito) ou portal aneel.gov.br; (3) PROCON estadual; (4) Juizado Especial Cível para casos de menor complexidade, sem necessidade de advogado; (5) Justiça comum para casos complexos ou de valor elevado.",
+    "type": "procedural",
+    "key_facts": [
+      "ouvidoria",
+      "ANEEL",
+      "167",
+      "PROCON",
+      "Juizado Especial"
+    ],
+    "response": "Se a distribuidora não responda à sua reclamação, você tem direito a uma audiência gratuita pelo 160 ou por meio do site da ANEEL. Se o problema persistir, pode entrar em contato diretamente com a distribuidora através do telefone (17) 3285-4900 ou pelo email [email protected]",
+    "metrics": {
+      "latency_seconds": 3.17,
+      "timestamp": "2026-04-14T11:26:48.804831",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Como me cadastrar na Tarifa Social de Energia Elétrica?",
+    "reference": "O benefício pode ser concedido automaticamente quando os dados do CadÚnico ou BPC estão atualizados e cruzados com os cadastros da distribuidora. Caso o desconto não apareça na fatura, o consumidor deve procurar a distribuidora com o NIS (Número de Identificação Social) ou comprovante de BPC, CPF e comprovante de residência. A conta de energia deve estar em nome de um membro da família beneficiada.",
+    "type": "procedural",
+    "key_facts": [
+      "CadÚnico",
+      "NIS",
+      "BPC",
+      "CPF",
+      "comprovante de residência",
+      "distribuidora"
+    ],
+    "response": "Para cadastrar na Tarifa Social de Energia Elétrica, você precisa fazer o seguinte:\n\n1. Entre em contato com a distribuidora local através do telefone ou email.\n2. Solicite a inscrição na tarifa social.\n3. Informe os dados necessários (nome completo, CPF, endereço, número de telefone) para que a distribuição possa processar sua inscrição.\n\nAcesse o site oficial da distribuidora ou o aplicativo da ANEEL para obter mais informações.",
+    "metrics": {
+      "latency_seconds": 4.19,
+      "timestamp": "2026-04-14T11:26:53.001427",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Como solicitar o parcelamento de débito de energia elétrica?",
+    "reference": "O consumidor inadimplente deve entrar em contato pelos canais de atendimento da distribuidora (telefone 0800, app, site ou agência presencial) e solicitar o parcelamento. Pessoas físicas podem parcelar em até 24 vezes com entrada mínima de 10% do total; pessoas jurídicas em até 12 vezes.",
+    "type": "procedural",
+    "key_facts": [
+      "canais de atendimento",
+      "24 vezes",
+      "10%",
+      "12 vezes"
+    ],
+    "response": "Para solicitar o parcelamento de débito de energia elétrica, você precisa fazer o seguinte: clique no ícone de pagamento na página de confirmação de compra; selecione \"Parcelar\" ou \"Parcelar por parcela\"; digite o valor total do débito que deseja parcelar; escolha o prazo de parcelamento (por exemplo, 3x, 6x, etc.) e, se for necessário, adicione uma taxa de parcelamento. Após enviar os dados, o sistema irá calcular o valor total a ser pago pela sua conta e emitir o débito.",
+    "metrics": {
+      "latency_seconds": 5.4,
+      "timestamp": "2026-04-14T11:26:58.404294",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Como registrar um eletrodependente junto à distribuidora?",
+    "reference": "O consumidor que depende de equipamentos elétricos para sobrevivência deve se cadastrar junto à distribuidora informando sua condição. O cadastro garante prioridade no atendimento em emergências. O contato deve ser feito pelos canais de atendimento da distribuidora, incluindo o canal 24 horas.",
+    "type": "procedural",
+    "key_facts": [
+      "cadastrar",
+      "distribuidora",
+      "prioridade",
+      "canal de atendimento"
+    ],
+    "response": "Para registrar um eletrodependente, você precisa fazer o seguinte: clique no ícone de registro no site da distribuidora; selecione \"Dependentes\" ou \"Dependentes de Energia\"; digite o nome completo do dependente; insira o número de telefone para contato; depois registre os dados do dependente. Obrigado pela sua pergunta!",
+    "metrics": {
+      "latency_seconds": 3.18,
+      "timestamp": "2026-04-14T11:27:01.590840",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Como solicitar a conexão de um sistema de microgeração distribuída (energia solar)?",
+    "reference": "O consumidor deve protocolar pedido de conexão junto à distribuidora. O prazo para análise técnica é de até 30 dias para sistemas de até 75 kW. Após aprovação, o sistema é conectado à rede e os excedentes injetados geram créditos com validade de 60 meses, utilizáveis em qualquer unidade do mesmo titular.",
+    "type": "procedural",
+    "key_facts": [
+      "protocolar pedido",
+      "distribuidora",
+      "30 dias",
+      "75 kW",
+      "créditos",
+      "60 meses"
+    ],
+    "response": "Para solicitar a conexão de um sistema de microgeração distribuída (energia solar), você precisa seguir os seguintes passos:\n\n1. **Anexar o contrato**: O primeiro passo é anexar o contrato do consumidor à sua empresa de energia elétrica.\n\n2. **Fazer o pareamento**: Seu cliente deve fazer o pareamento com a distribuidora para que a energia seja distribuída de maneira equitativa entre todos os clientes.\n\n3. **Comunicar ao consumidor**: Após o pareamento, o consumidor deve comunicá-lo ao fornecedor de energia. Ele pode fazer isso por telefone ou via internet.\n\n4. **Solicitar a conexão**: O consumidor deve enviar uma cópia do pareamento junto com o pedido de conexão. A distribuidora receberá o pedido e, se confirmado, irá emitir o contrato de conexão.\n\n5. **Comunicação ao consumidor**: O consumidor deve ser informado sobre o prazo de validade da conexão e as regras de uso.\n\n6. **Comunicar ao consumidor**: Após a validade, o consumidor deve comunicá-lo sobre o uso adequado",
+    "metrics": {
+      "latency_seconds": 8.8,
+      "timestamp": "2026-04-14T11:27:10.390913",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Como verificar se a distribuidora está cumprindo os prazos de restabelecimento durante uma interrupção?",
+    "reference": "O consumidor pode acompanhar pelo site da distribuidora, que deve ser atualizado a cada 30 minutos com a lista de ocorrências abertas, número de consumidores afetados e mapa das áreas atingidas. Também pode ligar para o canal 24 horas da distribuidora para obter a previsão de normalização.",
+    "type": "procedural",
+    "key_facts": [
+      "site da distribuidora",
+      "30 minutos",
+      "canal 24 horas",
+      "mapa de ocorrências"
+    ],
+    "response": "Para verificar se a distribuidora está cumprindo os prazos de restabelecimento após uma interrupção, você pode usar o site da ANEEL ou o aplicativo Anel. Aqui estão as etapas:\n\n1. **Site da ANEEL**: Clique no link \"Restabelecer o Serviço\" no topo da página.\n\n2. **Aplicativo Anel**: Faça login no aplicativo e clique no botão \"Restabelecer o Serviço\".\n\n3. **Análise de Prazo**: O aplicativo analisa o histórico de restabelecimentos para identificar quais prazos foram atingidos e quais ainda estão pendentes.\n\n4. **Consulta com a Distribuidora**: Se houver prazos que não foram atendidos, faça contato diretamente com a distribuidora através do telefone 0800-900-5555 ou pelo email [email protected] (se disponível).\n\nSe o prazo estiver incompleto, a distribuidora deve ser informada sobre o problema.",
+    "metrics": {
+      "latency_seconds": 11.73,
+      "timestamp": "2026-04-14T11:27:22.124796",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "O consumidor precisa pagar alguma taxa para obter a ligação nova residencial?",
+    "reference": "A base de conhecimento não especifica taxas para ligação nova residencial. O consumidor deve consultar a tabela de encargos homologada pela ANEEL ou entrar em contato com a distribuidora para verificar os valores aplicáveis.",
+    "type": "procedural",
+    "key_facts": [
+      "tabela ANEEL",
+      "distribuidora"
+    ],
+    "response": "Sim. A taxa de ligação é cobrada ao contratar uma nova conexão residencial. O valor varia dependendo do tipo de equipamento (como TV, telefones, internet) e do período de instalação.",
+    "metrics": {
+      "latency_seconds": 2.13,
+      "timestamp": "2026-04-14T11:27:24.253765",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "A compensação por ultrapassagem do prazo de restabelecimento é automática ou precisa ser solicitada?",
+    "reference": "É automática. A compensação é calculada com base nos indicadores DEC e FEC e aplicada diretamente na fatura seguinte, sem necessidade de qualquer solicitação por parte do consumidor.",
+    "type": "conditional",
+    "key_facts": [
+      "automática",
+      "DEC",
+      "FEC",
+      "fatura seguinte",
+      "sem solicitação"
+    ],
+    "response": "Sim, a compensação por ultrapassar o prazo de restabelecimento é automaticamente aplicável. O consumidor deve enviar uma cópia do contrato de distribuidora para o setor de distribuição.",
+    "metrics": {
+      "latency_seconds": 2.01,
+      "timestamp": "2026-04-14T11:27:26.264874",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Se o corte de energia ocorreu por erro da distribuidora, o consumidor paga taxa de religação?",
+    "reference": "Não. A religação é gratuita quando o corte tiver ocorrido por erro da distribuidora. A cobrança de taxa só se aplica quando o corte foi motivado por inadimplência do consumidor.",
+    "type": "conditional",
+    "key_facts": [
+      "gratuita",
+      "erro da distribuidora",
+      "não paga"
+    ],
+    "response": "Sim. A distribuidora deve pagar uma taxa de religação para compensar o consumidor por danos causados pela falta de energia. Esta taxa varia dependendo do tipo de distribuidor (comercial ou residencial) e do período de uso.",
+    "metrics": {
+      "latency_seconds": 2.74,
+      "timestamp": "2026-04-14T11:27:29.006860",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Se eu consertar o equipamento danificado antes da vistoria da distribuidora, perco o direito ao ressarcimento?",
+    "reference": "Não. O consumidor pode consertar o equipamento por conta própria, sem autorização da distribuidora e antes do término do prazo de vistoria, sem perder o direito ao ressarcimento. É recomendável guardar os documentos comprobatórios (orçamentos, notas fiscais do conserto).",
+    "type": "conditional",
+    "key_facts": [
+      "não perde o direito",
+      "pode consertar",
+      "sem autorização"
+    ],
+    "response": "Sim, se você tiver reparado o equipamento antes da vistoria, pode perder o direito ao ressarcimento. A distribuidora tem direito à garantia de ressarcimento por danos causados pela falta de manutenção ou reparação adequada. O ressarcimento deve ser feito dentro do prazo previsto na convenção de consumo ou pelo prazo estabelecido pela distribuidora.",
+    "metrics": {
+      "latency_seconds": 4.8,
+      "timestamp": "2026-04-14T11:27:33.809377",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Se as parcelas do parcelamento de débito estiverem em dia, a distribuidora pode cortar a energia?",
+    "reference": "Não. Durante o parcelamento ativo e com parcelas em dia, o fornecimento não pode ser interrompido pela distribuidora.",
+    "type": "conditional",
+    "key_facts": [
+      "não pode cortar",
+      "parcelamento ativo",
+      "parcelas em dia"
+    ],
+    "response": "Sim, se o débito estiver em dia e o fornecedor tiver autorização para cortar a energia, isso ocorre automaticamente. No entanto, a distribuidora deve enviar uma nota de cobrança detalhada antes do prazo.",
+    "metrics": {
+      "latency_seconds": 2.35,
+      "timestamp": "2026-04-14T11:27:36.157804",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Se o consumidor tem Tarifa Social e consome 100 kWh em um mês, recebe desconto integral na fatura?",
+    "reference": "Não integralmente. O desconto de 100% aplica-se somente aos primeiros 80 kWh. Os 20 kWh excedentes não recebem desconto. Além disso, ICMS e a contribuição de iluminação pública continuam sendo cobrados sobre todo o consumo.",
+    "type": "conditional",
+    "key_facts": [
+      "100%",
+      "80 kWh",
+      "sem desconto acima",
+      "ICMS cobrado"
+    ],
+    "response": "Sim! O desconto é aplicável para todos os consumidores que cumpram as condições do tarifário social. Se você tiver mais de 50% dos 100 kWh, pode receber o desconto.",
+    "metrics": {
+      "latency_seconds": 1.73,
+      "timestamp": "2026-04-14T11:27:37.894217",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Se eu não atualizo o CadÚnico há dois anos, ainda tenho direito à Tarifa Social?",
+    "reference": "Não. A falta de atualização do CadÚnico por mais de 2 anos implica perda do benefício da Tarifa Social. É necessário manter o cadastro atualizado para continuar recebendo o desconto.",
+    "type": "conditional",
+    "key_facts": [
+      "não",
+      "perde o benefício",
+      "2 anos",
+      "CadÚnico"
+    ],
+    "response": "Sim! A tarifa social é válida até 31 de dezembro de cada ano. Se você não ativar a tarifa social antes desse período, ela será cancelada automaticamente.",
+    "metrics": {
+      "latency_seconds": 1.72,
+      "timestamp": "2026-04-14T11:27:39.620751",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Se meu sistema solar foi instalado em 2021, preciso pagar a Tarifa Fio B?",
+    "reference": "Não. Sistemas de geração distribuída conectados antes de janeiro de 2023 mantêm isenção total da Tarifa Fio B por 25 anos a partir da data de conexão.",
+    "type": "conditional",
+    "key_facts": [
+      "não paga",
+      "isenção total",
+      "25 anos",
+      "antes de janeiro de 2023"
+    ],
+    "response": "Sim! O sistema solar instalado em 2021 pode ser considerado como novo equipamento e deve ser cobrado pela Tarifa Fio B (Taxa de Energia Bruta). A taxa é aplicada apenas para o período de instalação e até o dia seguinte à conclusão da obra.",
+    "metrics": {
+      "latency_seconds": 2.42,
+      "timestamp": "2026-04-14T11:27:42.047259",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Se a distribuidora demorar mais de 4 horas para restabelecer energia em área urbana, o que acontece?",
+    "reference": "O consumidor tem direito a compensação automática na fatura seguinte, calculada com base nos indicadores DEC e FEC, sem necessidade de solicitação. Não é necessário ligar ou abrir reclamação para receber o valor.",
+    "type": "conditional",
+    "key_facts": [
+      "compensação automática",
+      "DEC",
+      "FEC",
+      "fatura seguinte"
+    ],
+    "response": "A distribuidora deve informar o cliente imediatamente. Se houver danos à sua vida ou bem-estar, pode solicitar reavaliação gratuita.",
+    "metrics": {
+      "latency_seconds": 1.35,
+      "timestamp": "2026-04-14T11:27:43.400612",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Se a interrupção de energia foi causada por um evento climático extremo, o consumidor ainda tem direito à compensação?",
+    "reference": "Sim. Pelas novas regras aprovadas em outubro de 2025, a compensação é obrigatória a partir de 24 horas sem energia em área urbana e de 48 horas em área rural, mesmo em situações de calamidade ou eventos climáticos extremos.",
+    "type": "conditional",
+    "key_facts": [
+      "sim",
+      "24 horas urbana",
+      "48 horas rural",
+      "mesmo em calamidade"
+    ],
+    "response": "Sim. A compensação é garantida até 150% do valor da conta original, dependendo do tipo de eventuais danos. Se o evento fosse natural (como chuva), a compensação pode ser menor.",
+    "metrics": {
+      "latency_seconds": 1.55,
+      "timestamp": "2026-04-14T11:27:44.955896",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Se a distribuidora cobrar um valor indevido na minha fatura, tenho direito a receber de volta apenas o valor cobrado a mais?",
+    "reference": "Não. Conforme o Código de Defesa do Consumidor, aplicável subsidiariamente às relações com distribuidoras, a restituição é em dobro — ou seja, o consumidor recebe o dobro do valor cobrado indevidamente.",
+    "type": "conditional",
+    "key_facts": [
+      "não",
+      "em dobro",
+      "CDC",
+      "restituição"
+    ],
+    "response": "Sim! O valor cobrado deve ser retornado ao consumidor. A distribuidora tem direito à devolução do lucro que recebeu por cobrança injusta.",
+    "metrics": {
+      "latency_seconds": 1.24,
+      "timestamp": "2026-04-14T11:27:46.194222",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Se o imóvel que aluguei tem dívida de energia do inquilino anterior, sou obrigado a pagar para ligar a energia?",
+    "reference": "Não. A dívida pertence ao titular da conta (pessoa), não ao imóvel. A distribuidora não pode exigir que o novo morador pague o débito do titular anterior como condição para ligação ou transferência de titularidade.",
+    "type": "conditional",
+    "key_facts": [
+      "não",
+      "dívida pertence ao titular",
+      "não ao imóvel",
+      "não pode exigir"
+    ],
+    "response": "Sim, você é obrigado a pagar pela dívida do inquilino anterior. A distribuidora deve cobrar a conta original e adicionalmente a dívida do inquilino. Se a dívida for maior que 10% da parcela total, pode ser aplicada uma taxa de juros.",
+    "metrics": {
+      "latency_seconds": 2.4,
+      "timestamp": "2026-04-14T11:27:48.596358",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Se eu solicitar ressarcimento de um equipamento danificado há 3 anos, ainda tenho direito?",
+    "reference": "Sim. O prazo para solicitar ressarcimento é de até 5 anos após o dano, conforme alinhamento com o Código de Defesa do Consumidor. Contudo, como o pedido não será feito em até 90 dias do dano, não seguirá o rito simplificado — o procedimento será o padrão, com vistoria técnica.",
+    "type": "conditional",
+    "key_facts": [
+      "sim",
+      "5 anos",
+      "não segue rito simplificado",
+      "90 dias"
+    ],
+    "response": "Sim! O ressarcimento é válido até o dia do recebimento do equipamento. Se você solicitou ressarcimento há mais de três anos, pode ser cobrado desde que seja feito dentro do prazo legal.",
+    "metrics": {
+      "latency_seconds": 1.48,
+      "timestamp": "2026-04-14T11:27:50.077884",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Um idoso de 70 anos que recebe BPC tem direito à Tarifa Social?",
+    "reference": "Sim. Idosos a partir de 65 anos que recebam o BPC (Benefício de Prestação Continuada) estão entre os grupos com direito à Tarifa Social de Energia Elétrica.",
+    "type": "conditional",
+    "key_facts": [
+      "sim",
+      "BPC",
+      "65 anos",
+      "idoso"
+    ],
+    "response": "Sim. O IDOSETO pode ter direito ao BPC se ele estiver no prazo de validade (24 meses) e não tenha sido cancelado. Se o IDOSETO tiver mais de 65 anos ou seja menor de idade, o prazo de validade é de 18 meses.",
+    "metrics": {
+      "latency_seconds": 2.71,
+      "timestamp": "2026-04-14T11:27:52.789306",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Uma família quilombola inscrita no CadÚnico tem direito à Tarifa Social mesmo que sua renda per capita seja superior a ½ salário mínimo?",
+    "reference": "Sim. Famílias indígenas e quilombolas inscritas no CadÚnico têm direito à Tarifa Social independentemente do critério de renda per capita de ½ salário mínimo, pois constituem um grupo específico contemplado pela Lei nº 15.235/2025.",
+    "type": "conditional",
+    "key_facts": [
+      "sim",
+      "quilombola",
+      "CadÚnico",
+      "independente da renda"
+    ],
+    "response": "Sim. A tarifa social é aplicável para todas as famílias, independentemente da renda per capita. O benefício é distribuído por meio do Fundo Nacional de Desenvolvimento da Energia Elétrica (Fonede) e pode ser adquirido através de cartões de crédito ou débito.",
+    "metrics": {
+      "latency_seconds": 2.58,
+      "timestamp": "2026-04-14T11:27:55.368924",
+      "model_checkpoint": "v1.0-final"
+    }
+  },
+  {
+    "question": "Se a distribuidora não responder ao meu pedido de ressarcimento em 10 dias, o que posso fazer?",
+    "reference": "O consumidor pode recorrer à ANEEL pelo telefone 167 (gratuito) ou portal aneel.gov.br, ao PROCON estadual ou ao Juizado Especial Cível (Pequenas Causas), que não exige advogado para casos de menor complexidade e valor.",
+    "type": "conditional",
+    "key_facts": [
+      "ANEEL",
+      "167",
+      "PROCON",
+      "Juizado Especial",
+      "sem advogado"
+    ],
+    "response": "A distribuidora deve responder até 30 dias após o recebimento do pedido de ressarcimento. Se você ainda não recebeu resposta após esse prazo, pode entrar em contato diretamente com a distribuidora para solicitar a devolução ou restituição do valor pago.",
+    "metrics": {
+      "latency_seconds": 2.27,
+      "timestamp": "2026-04-14T11:27:57.640633",
+      "model_checkpoint": "v1.0-final"
+    }
+  }
+]

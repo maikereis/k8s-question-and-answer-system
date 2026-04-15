@@ -1,0 +1,162 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: llm-app
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: llm-app
+  template:
+    metadata:
+      labels:
+        app: llm-app
+    spec:
+      # ── Init containers ────────────────────────────────────────────────────
+      # Both run in parallel (Kubernetes 1.28+: use native sidecar containers).
+      # For older clusters they still run sequentially, which is fine.
+      initContainers:
+      - name: wait-for-redis
+        image: busybox:1.36
+        command:
+          - sh
+          - -c
+          - |
+            # Exponential back-off up to 30 s so we don't spam Redis on startup.
+            delay=2
+            until nc -z redis-service 6379; do
+              echo "Redis not ready — retrying in ${delay}s..."
+              sleep $delay
+              delay=$((delay < 30 ? delay * 2 : 30))
+            done
+            echo "Redis is ready."
+        resources:
+          requests:
+            cpu: "10m"
+            memory: "16Mi"
+          limits:
+            cpu: "50m"
+            memory: "32Mi"
+
+      - name: wait-for-vllm
+        image: busybox:1.36
+        command:
+          - sh
+          - -c
+          - |
+            delay=5
+            until wget -qO- http://vllm-service:8000/health 2>/dev/null; do
+              echo "vLLM not ready — retrying in ${delay}s..."
+              sleep $delay
+              delay=$((delay < 60 ? delay * 2 : 60))
+            done
+            echo "vLLM is ready."
+        resources:
+          requests:
+            cpu: "10m"
+            memory: "16Mi"
+          limits:
+            cpu: "50m"
+            memory: "32Mi"
+
+      # ── Main container ─────────────────────────────────────────────────────
+      containers:
+      - name: app
+        image: ghcr.io/maikereis/k8s-question-and-answer-system/api:main-657ca59
+        env:
+        - name: VLLM_URL
+          value: "http://vllm-service:8000/v1"
+        - name: REDIS_URL
+          value: "redis://redis-service:6379"
+        - name: REDIS_VECTOR_DIM
+          value: "384"
+        - name: REDIS_VECTOR_ALGORITHM
+          value: "FLAT"
+        - name: REDIS_VECTOR_DISTANCE
+          value: "COSINE"
+        - name: EMBEDDINGS_MODEL
+          value: "all-MiniLM-L6-v2"
+        - name: MODEL_NAME
+          value: "maikerdr/EnerGuia-0.5B"
+        - name: MODEL_DEVICE
+          value: "cpu"
+        - name: SIMILARITY_THRESHOLD
+          value: "0.85"
+        - name: SEMANTIC_CACHE_TTL
+          value: "3600"
+
+        # ── Model cache paths (read from shared PVC, never re-download) ──────
+        - name: SENTENCE_TRANSFORMERS_HOME
+          value: "/model-cache/sentence-transformers"
+        - name: HF_HOME
+          value: "/model-cache/hf-home"
+        - name: TRANSFORMERS_CACHE
+          value: "/model-cache/transformers"
+
+        # ── HuggingFace timeouts (generous; actual download already done) ────
+        - name: HF_HUB_DOWNLOAD_TIMEOUT
+          value: "120"
+        - name: HF_HUB_ETAG_TIMEOUT
+          value: "30"
+        - name: HF_HUB_VERBOSITY
+          value: "warning"       # reduce log noise vs "debug"
+        - name: HF_HUB_ENABLE_HF_TRANSFER
+          value: "0"
+
+        - name: HUGGING_FACE_HUB_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: hf-token-secret
+              key: token
+
+        # ── Resources ─────────────────────────────────────────────────────────
+        # The embedding model (all-MiniLM-L6-v2) loads into ~90 MB of RAM.
+        # The app itself + FastAPI overhead is ~150 MB.
+        # Total steady-state: ~350 MB; burst (inference request): ~512 MB.
+        resources:
+          requests:
+            cpu: "250m"     # reduced: app is mostly I/O-bound (waits on vLLM/Redis)
+            memory: "512Mi"
+          limits:
+            cpu: "500m"     # allow bursts without starving sibling pods
+            memory: "768Mi"
+
+        ports:
+        - containerPort: 8000
+
+        # ── Probes ────────────────────────────────────────────────────────────
+        # startupProbe gives the app time to load the embedding model on first
+        # start, then hands off to the cheaper liveness/readiness probes.
+        startupProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          # 30 attempts × 5 s = up to 150 s to start
+          failureThreshold: 30
+          periodSeconds: 5
+
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          failureThreshold: 3
+
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 10
+          periodSeconds: 20
+          failureThreshold: 3
+
+        volumeMounts:
+        - name: model-cache
+          mountPath: /model-cache
+          readOnly: true   # pods only read; preloader Job writes
+
+      volumes:
+      - name: model-cache
+        persistentVolumeClaim:
+          claimName: model-cache-pvc

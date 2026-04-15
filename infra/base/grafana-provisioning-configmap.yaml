@@ -1,0 +1,256 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: grafana-provisioning
+data:
+  # ── Datasource ──────────────────────────────────────────────────────────────
+  datasource.yaml: |
+    apiVersion: 1
+    datasources:
+      - name: Prometheus
+        type: prometheus
+        access: proxy
+        url: http://prometheus-service:9090
+        isDefault: true
+        editable: false
+
+  # ── Dashboard provider ───────────────────────────────────────────────────────
+  dashboard-provider.yaml: |
+    apiVersion: 1
+    providers:
+      - name: default
+        folder: ""
+        type: file
+        disableDeletion: false
+        editable: true
+        options:
+          path: /var/lib/grafana/dashboards
+
+  # ── Dashboard JSON ───────────────────────────────────────────────────────────
+  llm-api.json: |
+    {
+      "title": "LLM API",
+      "uid": "llm-api-v1",
+      "schemaVersion": 39,
+      "refresh": "10s",
+      "time": { "from": "now-30m", "to": "now" },
+      "panels": [
+
+        {
+          "id": 1,
+          "title": "Request Rate  (req/s)",
+          "type": "timeseries",
+          "gridPos": { "x": 0, "y": 0, "w": 12, "h": 8 },
+          "fieldConfig": {
+            "defaults": {
+              "unit": "reqps",
+              "color": { "mode": "palette-classic" },
+              "custom": { "lineWidth": 2, "fillOpacity": 10 }
+            }
+          },
+          "options": { "legend": { "displayMode": "list", "placement": "bottom" } },
+          "targets": [
+            {
+              "expr": "rate(cache_exact_hits_total[1m])",
+              "legendFormat": "Exact cache hit"
+            },
+            {
+              "expr": "rate(cache_semantic_hits_total[1m])",
+              "legendFormat": "Semantic cache hit"
+            },
+            {
+              "expr": "rate(cache_misses_total[1m])",
+              "legendFormat": "LLM inference (miss)"
+            }
+          ]
+        },
+
+        {
+          "id": 2,
+          "title": "Cache Hit Rate  (%)",
+          "type": "timeseries",
+          "gridPos": { "x": 12, "y": 0, "w": 12, "h": 8 },
+          "fieldConfig": {
+            "defaults": {
+              "unit": "percentunit",
+              "min": 0, "max": 1,
+              "color": { "mode": "palette-classic" },
+              "custom": { "lineWidth": 2, "fillOpacity": 10 }
+            }
+          },
+          "options": { "legend": { "displayMode": "list", "placement": "bottom" } },
+          "targets": [
+            {
+              "expr": "rate(cache_exact_hits_total[1m]) / clamp_min(rate(cache_exact_hits_total[1m]) + rate(cache_semantic_hits_total[1m]) + rate(cache_misses_total[1m]), 1)",
+              "legendFormat": "Exact hit rate"
+            },
+            {
+              "expr": "rate(cache_semantic_hits_total[1m]) / clamp_min(rate(cache_exact_hits_total[1m]) + rate(cache_semantic_hits_total[1m]) + rate(cache_misses_total[1m]), 1)",
+              "legendFormat": "Semantic hit rate"
+            },
+            {
+              "expr": "(rate(cache_exact_hits_total[1m]) + rate(cache_semantic_hits_total[1m])) / clamp_min(rate(cache_exact_hits_total[1m]) + rate(cache_semantic_hits_total[1m]) + rate(cache_misses_total[1m]), 1)",
+              "legendFormat": "Combined hit rate"
+            }
+          ]
+        },
+
+        {
+          "id": 3,
+          "title": "P50 Latency  (s)",
+          "type": "stat",
+          "gridPos": { "x": 0, "y": 8, "w": 4, "h": 5 },
+          "fieldConfig": {
+            "defaults": {
+              "unit": "s",
+              "color": { "mode": "thresholds" },
+              "thresholds": {
+                "mode": "absolute",
+                "steps": [
+                  { "color": "green", "value": null },
+                  { "color": "yellow", "value": 1 },
+                  { "color": "red", "value": 5 }
+                ]
+              }
+            }
+          },
+          "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "graphMode": "none" },
+          "targets": [
+            {
+              "expr": "histogram_quantile(0.50, rate(request_latency_seconds_bucket[5m]))",
+              "legendFormat": "P50"
+            }
+          ]
+        },
+
+        {
+          "id": 4,
+          "title": "P90 Latency  (s)",
+          "type": "stat",
+          "gridPos": { "x": 4, "y": 8, "w": 4, "h": 5 },
+          "fieldConfig": {
+            "defaults": {
+              "unit": "s",
+              "color": { "mode": "thresholds" },
+              "thresholds": {
+                "mode": "absolute",
+                "steps": [
+                  { "color": "green", "value": null },
+                  { "color": "yellow", "value": 2 },
+                  { "color": "red", "value": 8 }
+                ]
+              }
+            }
+          },
+          "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "graphMode": "none" },
+          "targets": [
+            {
+              "expr": "histogram_quantile(0.90, rate(request_latency_seconds_bucket[5m]))",
+              "legendFormat": "P90"
+            }
+          ]
+        },
+
+        {
+          "id": 5,
+          "title": "P99 Latency  (s)",
+          "type": "stat",
+          "gridPos": { "x": 8, "y": 8, "w": 4, "h": 5 },
+          "fieldConfig": {
+            "defaults": {
+              "unit": "s",
+              "color": { "mode": "thresholds" },
+              "thresholds": {
+                "mode": "absolute",
+                "steps": [
+                  { "color": "green", "value": null },
+                  { "color": "yellow", "value": 5 },
+                  { "color": "red", "value": 9 }
+                ]
+              }
+            }
+          },
+          "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "graphMode": "none" },
+          "targets": [
+            {
+              "expr": "histogram_quantile(0.99, rate(request_latency_seconds_bucket[5m]))",
+              "legendFormat": "P99"
+            }
+          ]
+        },
+
+        {
+          "id": 6,
+          "title": "Request Source Breakdown  (last 5 m)",
+          "type": "piechart",
+          "gridPos": { "x": 12, "y": 8, "w": 12, "h": 10 },
+          "fieldConfig": {
+            "defaults": { "color": { "mode": "palette-classic" } }
+          },
+          "options": { "pieType": "donut", "legend": { "displayMode": "list", "placement": "right" } },
+          "targets": [
+            {
+              "expr": "increase(cache_exact_hits_total[5m])",
+              "legendFormat": "Exact cache"
+            },
+            {
+              "expr": "increase(cache_semantic_hits_total[5m])",
+              "legendFormat": "Semantic cache"
+            },
+            {
+              "expr": "increase(cache_misses_total[5m])",
+              "legendFormat": "LLM inference"
+            }
+          ]
+        },
+
+        {
+          "id": 7,
+          "title": "Latency Percentiles over Time",
+          "type": "timeseries",
+          "gridPos": { "x": 0, "y": 13, "w": 12, "h": 8 },
+          "fieldConfig": {
+            "defaults": {
+              "unit": "s",
+              "color": { "mode": "palette-classic" },
+              "custom": { "lineWidth": 2, "fillOpacity": 5 }
+            }
+          },
+          "options": { "legend": { "displayMode": "list", "placement": "bottom" } },
+          "targets": [
+            {
+              "expr": "histogram_quantile(0.50, rate(request_latency_seconds_bucket[2m]))",
+              "legendFormat": "p50"
+            },
+            {
+              "expr": "histogram_quantile(0.90, rate(request_latency_seconds_bucket[2m]))",
+              "legendFormat": "p90"
+            },
+            {
+              "expr": "histogram_quantile(0.99, rate(request_latency_seconds_bucket[2m]))",
+              "legendFormat": "p99"
+            }
+          ]
+        },
+
+        {
+          "id": 8,
+          "title": "Cumulative Request Totals",
+          "type": "stat",
+          "gridPos": { "x": 0, "y": 21, "w": 4, "h": 4 },
+          "fieldConfig": {
+            "defaults": {
+              "color": { "mode": "thresholds" },
+              "thresholds": { "steps": [{ "color": "blue", "value": null }] }
+            }
+          },
+          "options": { "reduceOptions": { "calcs": ["lastNotNull"] }, "graphMode": "area" },
+          "targets": [
+            { "expr": "cache_exact_hits_total", "legendFormat": "Exact hits" },
+            { "expr": "cache_semantic_hits_total", "legendFormat": "Semantic hits" },
+            { "expr": "cache_misses_total", "legendFormat": "LLM inferences" }
+          ]
+        }
+
+      ]
+    }

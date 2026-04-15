@@ -1,0 +1,21 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - redis-pvc.yaml
+  - model-cache-pvc.yaml
+  - vllm-model-cache-pvc.yaml
+  - prometheus-pvc.yaml
+  - model-preloader-job.yaml
+  - redis-deployment.yaml
+  - redis-service.yaml
+  - vllm-deployment.yaml
+  - vllm-service.yaml
+  - app-deployment.yaml
+  - app-service.yaml
+  - prometheus-configmap.yaml
+  - prometheus-deployment.yaml
+  - prometheus-service.yaml
+  - grafana-provisioning-configmap.yaml
+  - grafana-deployment.yaml
+  - grafana-service.yaml

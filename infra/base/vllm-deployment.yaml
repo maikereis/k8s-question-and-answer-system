@@ -1,0 +1,79 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vllm-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vllm
+  template:
+    metadata:
+      labels:
+        app: vllm
+    spec:
+      containers:
+      - name: vllm
+        image: vllm/vllm-openai:latest
+        command: ["vllm", "serve"]
+        args:
+          - "maikerdr/EnerGuia-0.5B"
+          - "--gpu-memory-utilization"
+          - "0.65"
+          - "--max-model-len"
+          - "512"
+          - "--enforce-eager"
+          # Point vLLM's download dir at the PVC so weights survive restarts.
+          - "--download-dir"
+          - "/vllm-model-cache"
+
+        env:
+        - name: HF_HOME
+          value: "/vllm-model-cache/hf-home"
+        - name: TRANSFORMERS_CACHE
+          value: "/vllm-model-cache/transformers"
+        - name: HUGGING_FACE_HUB_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: hf-token-secret
+              key: token
+
+        resources:
+          requests:
+            cpu: "500m"
+            memory: "8Gi"
+            nvidia.com/gpu: "1"
+          limits:
+            cpu: "2000m"
+            memory: "12Gi"
+            nvidia.com/gpu: "1"
+
+        ports:
+        - containerPort: 8000
+
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          # First start: model download can take several minutes.
+          # Subsequent starts (cache hit): model loads in ~20 s.
+          initialDelaySeconds: 30
+          periodSeconds: 15
+          failureThreshold: 40   # up to 10 min for cold first-run download
+
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 60
+          periodSeconds: 30
+          failureThreshold: 5
+
+        volumeMounts:
+        - name: vllm-model-cache
+          mountPath: /vllm-model-cache
+
+      volumes:
+      - name: vllm-model-cache
+        persistentVolumeClaim:
+          claimName: vllm-model-cache-pvc

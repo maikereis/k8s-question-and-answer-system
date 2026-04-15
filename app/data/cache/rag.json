@@ -1,0 +1,1652 @@
+[
+  {
+    "question": "Qual o prazo para ligação nova residencial urbana monofásica ou bifásica?",
+    "reference": "Até 7 dias úteis.",
+    "type": "factual",
+    "key_facts": [
+      "7",
+      "dias úteis"
+    ],
+    "response": "Para ligarem uma novăncia residencial urbana que tem baixo nível de tensão:\n\nA resposta está correta! O prazo mínimo para ligação novo depende dos tipos específicos das unidades:\n\n- Para áreas urbanas onde há baixíssima tensão monofásica ou bífasic (como áreas rurais):\n   É necessário fazer isso dentro de 7 dias úteis após receber os serviços.\n\n- No caso de áreas urbanas com baixíssimas tensões trifásicas (como as mais populares), \n    pode ser necessária até 15 dias útesis.\n\nPortanto, se você tiver alguma dúvida sobre qual dessas duas opções seria melhor,\nvou te dar algumas informações adicionais:\n\nSe for uma area urbana com baixeira baja tensión monofásica/bifásica, geralmente será feita nesta data limite;\nNo entanto, não podemos garantir precisando exatamente como vai funcionar sua localização específica,\n\nPor favor, fique à vontade para perguntarmos mais detalhes se quiser saber algo mais sobre esse assunto.",
+    "retrieval_scores": [
+      0.7151178121566772,
+      0.6431699991226196,
+      0.5671871304512024
+    ],
+    "metrics": {
+      "latency_seconds": 7.75,
+      "timestamp": "2026-04-13T17:25:37.436044",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o prazo para ligação nova trifásica residencial ou comercial de baixa tensão em área urbana?",
+    "reference": "Até 15 dias úteis.",
+    "type": "factual",
+    "key_facts": [
+      "15",
+      "dias úteis"
+    ],
+    "response": "Para ligarem uma novătade de baixo tântaro multifasa (residencial) ou bífota trifosa (comercial), os principais requisitos variam dependendo das áreas urbanas:\n\n1. **Pré-cálculo**: Em algumas regiões específicas, pode ser necessário precalcular as condições antes que seja solicitada a solicitação de novo fornecimento.\n\n2. **Ligação Nueva**: O prazo geralmente está previsto como sendo \"aqui\" durante alguns períodos temporários, mas não especificados exatamente nos trechos mencionados aqui.\n\nNo entanto, se você for específico sobre qual região específica esteja falando, poderíamos tentarmos entender melhor sua necessidade mais detalhadamente. Se precisar de informações adicionais diretamente relacionadas à situação descrita neste texto, ficarei feliz em ajudar!",
+    "retrieval_scores": [
+      0.7993570566177368,
+      0.6812082529067993,
+      0.5528620481491089
+    ],
+    "metrics": {
+      "latency_seconds": 7.56,
+      "timestamp": "2026-04-13T17:25:44.993259",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o prazo máximo para ligação nova em média ou alta tensão?",
+    "reference": "O prazo é definido em contrato, não podendo ultrapassar 90 dias úteis.",
+    "type": "factual",
+    "key_facts": [
+      "90",
+      "dias úteis",
+      "contrato"
+    ],
+    "response": "A resposta correta seria que os prazos mínimos variam dependendo dos tipos específicos de unidades:\n\n- Para uma Unidade de Baixo Tensão Monofásica/Trifásica (ÁREA URBANA), há até 7 dias úteis.\n- Para uma Unidade de Baixo Tensão Tripla (ÁREA URBANA), há até 15 dias úteses.\n  \nPortanto, não existe nenhum limite específico como \"prazos máxima\" aqui mencionada. \n\nSe você precisasse saber sobre outros casos mais complexos relacionados à falta de energia, recomendaria consultar as leis específicas aplicáveis ao seu estado ou país.",
+    "retrieval_scores": [
+      0.7614145874977112,
+      0.6450049877166748,
+      0.5702316761016846
+    ],
+    "metrics": {
+      "latency_seconds": 4.94,
+      "timestamp": "2026-04-13T17:25:49.937439",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o prazo de religação em área urbana após pagamento do débito?",
+    "reference": "Até 4 horas após a confirmação do pagamento.",
+    "type": "factual",
+    "key_facts": [
+      "4",
+      "horas"
+    ],
+    "response": "A resposta correta seria:\n\n\"De acordo com as regras previstas pela Lei nº 6.579 / 1982, conforme mencionada nos trechos anteriores, o prazo máximo para que uma pessoa não adinpeça sua conta seja de 4 horas após a confirmção do pagamento.\" \n\nPortanto, o consumo inadimposto será suspensa durante esse período.",
+    "retrieval_scores": [
+      0.7284524440765381,
+      0.6544800996780396,
+      0.6337332129478455
+    ],
+    "metrics": {
+      "latency_seconds": 3.15,
+      "timestamp": "2026-04-13T17:25:53.086642",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o prazo de religação em área rural após pagamento do débito?",
+    "reference": "Até 24 horas após a confirmação do pagamento.",
+    "type": "factual",
+    "key_facts": [
+      "24",
+      "horas"
+    ],
+    "response": "A resposta correta seria:\n\n\"De acordo com as regras previstas nos artigos [XX] desta Lei Federal nº XX/XXXXX (ou seja, conforme mencionados no trecho anterior), o prazo máximo para que o consumidor possa realizar suas atividades comerciais ou residenciais durante uma determinada data será de duas semanas úteis desde a confirmação dos pagamentos.\"\n\nEsta informação está relacionada à lei específica sobre previdências trabalhistas brasileira, mas não se aplica diretamente às regulamentações específicas referentes aos serviços eletrônicos como aquele apresentado neste texto específico. Se você precisasse entender melhor esses aspectos legais envolvidos nesta situação particular, sugiro consultar documentários oficiais ou profissionais jurídico-línguístico dedicados a esse tipo de matéria.",
+    "retrieval_scores": [
+      0.6840640902519226,
+      0.6463875770568848,
+      0.6199949979782104
+    ],
+    "metrics": {
+      "latency_seconds": 6.65,
+      "timestamp": "2026-04-13T17:25:59.742513",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Em que situação a religação é gratuita?",
+    "reference": "A religação é gratuita quando o corte tiver ocorrido por erro da distribuidora.",
+    "type": "factual",
+    "key_facts": [
+      "gratuita",
+      "erro da distribuidora"
+    ],
+    "response": "A questão está incorreta porque ela se refere especificamente às refeições pagas pela Anatel, mas não menciona as condições específicas sobre a religação para os clientes de energia elétrica. Se você quiser saber como determinar se algo é gratuito dependendo das reseñas dos fornecedores, seria melhor consultar diretamente esses serviços ou consultares informações oficiais desses órgãos reguladores.",
+    "retrieval_scores": [
+      0.64203941822052,
+      0.5766525268554688,
+      0.5406947135925293
+    ],
+    "metrics": {
+      "latency_seconds": 2.72,
+      "timestamp": "2026-04-13T17:26:02.459944",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o prazo máximo para restabelecimento de energia em área urbana?",
+    "reference": "Até 4 horas para interrupções em redes de baixa tensão.",
+    "type": "factual",
+    "key_facts": [
+      "4",
+      "horas",
+      "área urbana"
+    ],
+    "response": "No contexto que você me forneceu:\n\nA resposta está correta! O prazo mínimo para restauraço das energias em áreas urbanas é de apenas 4 horas desde a data da cotação ou descoberta financeira pela empresa responsável pelos serviços eletrônicos. No entanto, se há uma condenação judicial contra o cliente, isso alterará significativamente esse limite. Em casos mais graves como desvios econômicos, podem ocorrer períodos muito maiores dependendo dos fatos específicos envolvidos. Portanto, sempre lembrem-se de consultar diretamente com as autoridades competentes sobre suas condições individuais.",
+    "retrieval_scores": [
+      0.6742134094238281,
+      0.6742075085639954,
+      0.6312919855117798
+    ],
+    "metrics": {
+      "latency_seconds": 5.1,
+      "timestamp": "2026-04-13T17:26:07.558289",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o prazo máximo para restabelecimento de energia em área rural?",
+    "reference": "Até 8 horas.",
+    "type": "factual",
+    "key_facts": [
+      "8",
+      "horas",
+      "área rural"
+    ],
+    "response": "O prazo máximo para restaurar as energias nos domicílios rurais está previsto como:\n\n\"área rural\": até 8 horas.\"\n\nPortanto, não há uma \"piora temporária\", mas sim um limite temporal que pode ser alcançado apenas após alguns dias ou semanas se os problemas persistirem durante esse período. A recomendação geral seria buscar informações mais detalhadas sobre preços atualizados antes de fazer qualquer mudança neste horário específico.",
+    "retrieval_scores": [
+      0.6465991735458374,
+      0.629270076751709,
+      0.6202607750892639
+    ],
+    "metrics": {
+      "latency_seconds": 2.97,
+      "timestamp": "2026-04-13T17:26:10.528387",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "O consumidor precisa solicitar a compensação se a distribuidora ultrapassar o prazo de restabelecimento?",
+    "reference": "Não. A compensação é feita automaticamente na fatura seguinte, sem necessidade de solicitação por parte do consumidor.",
+    "type": "factual",
+    "key_facts": [
+      "automaticamente",
+      "fatura seguinte",
+      "sem necessidade de solicitação"
+    ],
+    "response": "Sim, os consumidores precisam sempre solicitarem uma reparação se houver danos graves como aqueles mencionados nesta lista:\n\n1. Prazo para solicitações: até cinco anos desde o incidente.\n   \n2. Método simples de pagamento: podem fazer as demandas entre 90 dias úteis.\n\n3. Conserto prévio: o cliente tem liberdade para realizar o reparo pessoais antes dos 5 anos, mas isso implica que ele deve ter recebido sua reclamação pela distribuição.\n\nÉ importante notar que esses requisitos são apenas mínimos legítimos e devem ser cumpridos pelos clientes independentemente das condições específicas fornecidas pelas empresas. Se você está enfrentando problemas financeiros relacionadas aos seus equipamentos elétricos, recomendo entrar em contato diretamente com a empresa responsável para obter informações detalhadas sobre suas obrigações e possíveis recompensas disponíveis.",
+    "retrieval_scores": [
+      0.6068957448005676,
+      0.5993194580078125,
+      0.5930663347244263
+    ],
+    "metrics": {
+      "latency_seconds": 6.78,
+      "timestamp": "2026-04-13T17:26:17.311597",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "A partir de quantas horas sem energia em área urbana o consumidor tem direito à compensação mesmo em eventos climáticos extremos, conforme as novas regras de outubro de 2025?",
+    "reference": "A partir de 24 horas sem energia em área urbana.",
+    "type": "factual",
+    "key_facts": [
+      "24 horas",
+      "área urbana",
+      "eventos climáticos"
+    ],
+    "response": "A compensação automática pela primeira vez ocorrerá após duas horas sem energia em uma área urbana durante períodos de evento climático extremo como chuvas ou seco intensivo. No entanto, não há garantia absoluta sobre quanto tempo será necessário antes que seja aplicável esta medida específica das novidades anunciadas nesta data. O consumo total pode variar dependendo dos dados específicos fornecidos pelos órgãos ambientalistas envolvidos neste processo específico às vezes. Portanto, seria melhor consultar diretamente com as autoridades ambientais locais ou consultores privados confiáveis para obter informações mais precisas e atualizadoras sobre esses detalhes.",
+    "retrieval_scores": [
+      0.7955703139305115,
+      0.6855638027191162,
+      0.6136561632156372
+    ],
+    "metrics": {
+      "latency_seconds": 5.1,
+      "timestamp": "2026-04-13T17:26:22.411505",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "A partir de quantas horas sem energia em área rural o consumidor tem direito à compensação em situações de emergência climática?",
+    "reference": "A partir de 48 horas sem energia em área rural.",
+    "type": "factual",
+    "key_facts": [
+      "48 horas",
+      "área rural"
+    ],
+    "response": "De acordo com os dados fornecidos, há uma compensação temporária de duas (2) horas sem energia em áreas rurais caso ocorra situação de calamidade.\n\nPortanto, não existe garantia absoluta sobre quão longa será esta compensação específica para cada região ou localização geográfica. O que se pode afirmar é que esses benefícios podem ser oferecidos apenas durante períodos específicos relacionados às condições meteorológicas mais adversas.",
+    "retrieval_scores": [
+      0.6380324363708496,
+      0.6234011650085449,
+      0.6139985918998718
+    ],
+    "metrics": {
+      "latency_seconds": 3.2,
+      "timestamp": "2026-04-13T17:26:25.611835",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Em quanto tempo a distribuidora deve comunicar ao consumidor a causa de uma interrupção após conhecê-la?",
+    "reference": "Em até 15 minutos após o conhecimento da causa, ou em até 1 hora após o reconhecimento da ocorrência, mesmo que a causa não tenha sido totalmente apurada.",
+    "type": "factual",
+    "key_facts": [
+      "15 minutos",
+      "1 hora"
+    ],
+    "response": "A distribuição diz que a comunicação deverá ser feita \"no momento\" seguinte à informação sobre a causante da interrupção. Portanto, se houver alguma alteração nos dados informando a causa da interrupção, ela precisa ser enviada imediatamente. No entanto, sem mais informações específicas, isso parece ter sido interpretado como sendo apenas uma sugestão geralmente aplicáveis às circunstâncias mencionadas neste trecho específico.",
+    "retrieval_scores": [
+      0.6542147397994995,
+      0.6140000224113464,
+      0.5951741337776184
+    ],
+    "metrics": {
+      "latency_seconds": 3.73,
+      "timestamp": "2026-04-13T17:26:29.344435",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Com que frequência o site da distribuidora deve ser atualizado durante uma ocorrência de interrupção?",
+    "reference": "A cada 30 minutos, com a lista de ocorrências abertas, número de consumidores afetados e mapa das áreas atingidas.",
+    "type": "factual",
+    "key_facts": [
+      "30 minutos",
+      "mapa",
+      "ocorrências abertas"
+    ],
+    "response": "O site da distribuição deverá ser atualizado a cada 30 minutos.",
+    "retrieval_scores": [
+      0.6925777792930603,
+      0.6105115413665771,
+      0.598734974861145
+    ],
+    "metrics": {
+      "latency_seconds": 0.52,
+      "timestamp": "2026-04-13T17:26:29.861358",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "A distribuidora pode ser multada por não comunicar corretamente os consumidores durante uma interrupção?",
+    "reference": "Sim. O descumprimento das obrigações de comunicação gera multa para a distribuidora, além de outras punições cabíveis.",
+    "type": "factual",
+    "key_facts": [
+      "multa",
+      "descumprimento"
+    ],
+    "response": "Sim, conforme a Anatel (agencia nacional de telefonia móvel), a distribuição deve informá-lo sobre qualquer alteração nos dados dos seus medidores antes que ocorra uma interrupção. Portanto, se houver alguma mudança nesse processo, seria considerada violação de sua responsabilidade pela ANATEL.",
+    "retrieval_scores": [
+      0.6188146471977234,
+      0.6088125109672546,
+      0.6077697277069092
+    ],
+    "metrics": {
+      "latency_seconds": 2.7,
+      "timestamp": "2026-04-13T17:26:32.562080",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o prazo para um consumidor solicitar ressarcimento por equipamento danificado por falha no fornecimento?",
+    "reference": "Até 5 anos após o dano.",
+    "type": "factual",
+    "key_facts": [
+      "5 anos"
+    ],
+    "response": "O prazo mínimo para uma pessoa que tenha sido prejudicada pelo defeito de fornecedor deve ser de cinco anos desde quando ocorreu o danos. No entanto, se houver interrupções temporárias como surtos ou variáveis de tensão, os requisitos podem mudar dependendo das leis específicas aplicadas às suas regiões. Por exemplo, algumas regiões têm regulamentos diferentes sobre esses tipos de desastres. Portanto, seria melhor consultar diretamente as leis locais ou consultares informações oficiais dos órgãos competentes para obter detalhes precisos sobre esse tipo específico de situação.",
+    "retrieval_scores": [
+      0.7319513559341431,
+      0.7185611724853516,
+      0.6769241094589233
+    ],
+    "metrics": {
+      "latency_seconds": 5.01,
+      "timestamp": "2026-04-13T17:26:37.568905",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "O que é o rito simplificado de ressarcimento por danos a equipamentos?",
+    "reference": "Pedidos feitos em até 90 dias seguem um procedimento mais ágil de ressarcimento, sem necessidade de aguardar o processo completo de vistoria.",
+    "type": "factual",
+    "key_facts": [
+      "90 dias",
+      "rito simplificado"
+    ],
+    "response": "O rito simples de ressarcimento pela dano causoso aos equipamentos é uma medida judicial aplicável às empresas de telecomunicação brasileiras. Ele permite que os clientes recorram diretamente contra as distribuições pelos custos desnecessários levantados após ter sido informado sobre esses problemas durante sua compra. No entanto, este tipo de recurso geralmente requer evidencia financeira suficiente para justificar o pagamento dos despesas extras associadas ao problema. Se você está enfrentando algum problema relacionado à prestação das suas necessidades básicas como medicamento, alimentação, entre outros, seria mais adequado procurar ajuda legal através de conselheiros jurídico-científicos ou advogados qualificados.",
+    "retrieval_scores": [
+      0.6904715299606323,
+      0.6518497467041016,
+      0.6225444078445435
+    ],
+    "metrics": {
+      "latency_seconds": 6.39,
+      "timestamp": "2026-04-13T17:26:43.960243",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "O consumidor pode consertar o equipamento danificado antes da vistoria da distribuidora?",
+    "reference": "Sim. O consumidor pode consertar o equipamento por conta própria, sem autorização da distribuidora, antes do término do prazo de vistoria, sem perder o direito ao ressarcimento.",
+    "type": "factual",
+    "key_facts": [
+      "pode consertar",
+      "sem autorização",
+      "sem perder o direito"
+    ],
+    "response": "Sim, conforme as regras mencionadas pelo trecho [TRECHTO] 4, se o consumidor tiver interesse em trocar os medidores para fins de reparação, ele poderá fazer isso dentro dos prazos especificados pelas leis. No entanto, esses recursos devem ser fechados através das instituições competentes, como o Procon Estadual ou o Júri Específico Cívico, dependendo do valor desses serviços. Portanto, sugiro que consulte diretamente uma agência oficial responsável pelos processos judiciais relacionados aos dados pessoais.",
+    "retrieval_scores": [
+      0.6803007125854492,
+      0.6688318252563477,
+      0.6599279642105103
+    ],
+    "metrics": {
+      "latency_seconds": 4.43,
+      "timestamp": "2026-04-13T17:26:48.387960",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Em quantos dias a distribuidora deve responder a um pedido de ressarcimento por danos em equipamentos?",
+    "reference": "A distribuidora deve realizar vistoria técnica ou responder ao consumidor em até 10 dias corridos após o registro do pedido.",
+    "type": "factual",
+    "key_facts": [
+      "10 dias corridos"
+    ],
+    "response": "A distribuição diz que os reparos devem acontecer dentro das duas semanas após a realização dos serviços. Portanto, para uma reparação completa:\n\n- Dados mínimos são necessários apenas se há algum problema específico relacionado aos equipamentos instalados pela empresa.\n\nSe você precisar de mais detalhes sobre como calcular isso, recomendo conversarmos diretamente com as equipes técnicas da sua distribuidor localizada em São Paulo. Elas estarão dispostas a fornecer informações específicas dependendo do tipo de reparo solicitado.",
+    "retrieval_scores": [
+      0.6656570434570312,
+      0.6578727960586548,
+      0.6408870816230774
+    ],
+    "metrics": {
+      "latency_seconds": 3.77,
+      "timestamp": "2026-04-13T17:26:52.155838",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o prazo para troca de medidor com defeito comprovado?",
+    "reference": "Até 10 dias úteis após a solicitação.",
+    "type": "factual",
+    "key_facts": [
+      "10 dias úteis"
+    ],
+    "response": "O prazo máximo para trocar o medidor com defeito comprovado depende das condições específicas:\n\n### Princípio Geral\nA troca deve ocorrer dentro dos 10 dias úteis seguintes às informações solicitadas pelo cliente.\n\n### Situações Comuns\nOs principais cenários são aqueles onde há evidências demonstrativas de que houve desviando energia (\"catapulta\").\n\n#### Suspeitas de Fraqueza \nSe for identificada uma suspeição de fraude (como desvios energéticos), os médiums devem ser substituídos imediatamente depois da consulta.\n\n#### Consequência Legal\nNo entanto, se as circunstâncias forem consideráveismente diferentes, como ter sido cometida durante operações efetivas, podem existir limitações legais sobre quão longa será permitido o tempo entre a informação inicial e a contratação do serviço novo.\n\nPorém, embora isso seja possível, ainda assim, qualquer suprimentos contratados serão cobertos pelos preços originais, mas nem sempre eles estão disponíveis nos serviços novos oferecidos pelas empresas.\n\nPortanto, geralmente, a decisão final está relacionada aos critérios técnicos aplicável à situação específica envolvida.",
+    "retrieval_scores": [
+      0.6391664147377014,
+      0.6338763236999512,
+      0.6322988867759705
+    ],
+    "metrics": {
+      "latency_seconds": 8.71,
+      "timestamp": "2026-04-13T17:27:00.869244",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Quem arca com o custo da troca de medidor com defeito?",
+    "reference": "A distribuidora, sem custo para o consumidor.",
+    "type": "factual",
+    "key_facts": [
+      "distribuidora",
+      "sem custo"
+    ],
+    "response": "O consumidor que recebeu uma troca de medidor com defeito deve se recusar a pagar pelo valor descontrado. O custo dessa operação está coberto pelos serviços fornecedores, então ele tem liberdade de escolher como fazer as contas financeiras dependendo das condições específicas dos seus contratos. No entanto, isso também significa que você terá que prestar esclarecimentos sobre os detalhes da situação específica quando for solicitado.",
+    "retrieval_scores": [
+      0.6655279397964478,
+      0.6161395311355591,
+      0.5831432938575745
+    ],
+    "metrics": {
+      "latency_seconds": 3.17,
+      "timestamp": "2026-04-13T17:27:04.042555",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Por quantos anos retroativos o consumidor pode ser cobrado em caso de fraude no medidor?",
+    "reference": "Por até 5 anos retroativos.",
+    "type": "factual",
+    "key_facts": [
+      "5 anos"
+    ],
+    "response": "O consumidor tem uma garantida de cinco anos por volta dos quais poderá receber recompensa pelo desvão de energia sem medida durante esse período. No entanto, se houver evidencia suficiente de fraqueza nos dados fornecidos pelos médios de comunicação, isso poderia afetar sua situação financeira mais rapidamente. Portanto, sempre lembre-se de verificar as condições específicas antes de tomar qualquer decisão sobre seus direitos legítimos!",
+    "retrieval_scores": [
+      0.7029898762702942,
+      0.5766574740409851,
+      0.5546002388000488
+    ],
+    "metrics": {
+      "latency_seconds": 4.07,
+      "timestamp": "2026-04-13T17:27:08.110091",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o desconto da Tarifa Social para consumo de até 80 kWh por mês após julho de 2025?",
+    "reference": "Isenção total (100%) sobre o componente de energia para o consumo de até 80 kWh por mês.",
+    "type": "factual",
+    "key_facts": [
+      "100%",
+      "isenção total",
+      "80 kWh"
+    ],
+    "response": "O desconto da tarifa social para atender à condição \"Aqui\" foi aumentado de R$ 67,49 ao ano para R$ 100, ou seja:\n\nR\\$ [67,49 + (80 * 1)] = R\\$ 100,00\n\nPortanto, os usuários que estão dentro desta faixita podem esperar receber um aumento significativo neste valor!",
+    "retrieval_scores": [
+      0.7574362754821777,
+      0.7302407622337341,
+      0.6515863537788391
+    ],
+    "metrics": {
+      "latency_seconds": 3.46,
+      "timestamp": "2026-04-13T17:27:11.569222",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "O consumidor com Tarifa Social que consome acima de 80 kWh por mês recebe desconto na parcela excedente?",
+    "reference": "Não. A parcela de consumo acima de 80 kWh não recebe desconto.",
+    "type": "factual",
+    "key_facts": [
+      "não",
+      "sem desconto",
+      "acima de 80 kWh"
+    ],
+    "response": "Sim, os consumidores com tarifas sociais podem receber descontos nos custos excessivos quando eles atingirem as metades de suas capacidades limites mensais:\n\nAqui está como você pode entender melhor:\n\n#### Contexto:\nO texto menciona duas formas diferentes de descoberta dos valores extras pagáveis pela tarifa social:\n\n##### Atendimento ao Cliente (TCE):\nSeu cliente tem acesso à tabela abaixo para saber qual será sua taxa extra caso ele esteja sob a faixita de 80 kWh/mês.\n\n| Valor Extra | Taxa Excessivo |\n|-------------|----------------|\n| Isento       | Não               |\n\nPara obter mais detalhes ou informações adicionais, recomendo entrar diretamente em contato pelo telefone [seus números] ou através do site oficial da Anatel.\n\n##### Comunicação Direta (Comissão Energética):\n\nOs clientes poderiam fazer isso via email ou falar conosco diretamente. No entanto, essas opções são menos frequentemente usadas pelos usuários modernos.\n\nLembre-se sempre de verificar todas as instruções específicas disponíveis junto aos seus fornecedores energéticos para garantir que estão cumprindo todos os requisitos legais nesse contexto específico.",
+    "retrieval_scores": [
+      0.6776344180107117,
+      0.6771075129508972,
+      0.6384696960449219
+    ],
+    "metrics": {
+      "latency_seconds": 8.75,
+      "timestamp": "2026-04-13T17:27:20.318255",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "O desconto da Tarifa Social inclui o ICMS e a contribuição de iluminação pública?",
+    "reference": "Não. O ICMS e a contribuição de iluminação pública continuam sendo cobrados, pois dependem de legislação estadual e municipal e não integram o desconto federal.",
+    "type": "factual",
+    "key_facts": [
+      "não",
+      "ICMS",
+      "iluminação pública",
+      "continuam cobrados"
+    ],
+    "response": "Sim, o desconto da tarifa social inclui os impostos como ICMS e as contribuições para iluminação pública. Portanto, você está certo!",
+    "retrieval_scores": [
+      0.594018816947937,
+      0.5882498025894165,
+      0.5855182409286499
+    ],
+    "metrics": {
+      "latency_seconds": 1.04,
+      "timestamp": "2026-04-13T17:27:21.354628",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Quais grupos têm direito à Tarifa Social de Energia Elétrica?",
+    "reference": "Famílias inscritas no CadÚnico com renda per capita até ½ salário mínimo; beneficiários do BPC (idosos 65+ ou pessoas com deficiência); famílias inscritas no CadÚnico com renda até 3 salários mínimos e membro que utilize equipamentos elétricos médicos de forma contínua; famílias indígenas e quilombolas inscritas no CadÚnico; famílias atendidas por sistemas isolados na região Norte.",
+    "type": "factual",
+    "key_facts": [
+      "CadÚnico",
+      "BPC",
+      "½ salário mínimo",
+      "equipamentos elétricos médicos"
+    ],
+    "response": "Os grupos que têm diretores à Tarifa Social de Energia Elétrica estão sendo alteradas para os seguintes grupos:\n\n- Grupos residênciais do grupo B\n- Grupos médios-e-alta-tensa dos grupos A e C\n\nAs regras foram modificadas após a publicação desta lei específica, mas geralmente esses grupos continuam recebendo as mesmas tarifas originais desde então até quando houver mudanças adicionais ou não previstas pelo novo sistema.",
+    "retrieval_scores": [
+      0.67304527759552,
+      0.5619319677352905,
+      0.5390045642852783
+    ],
+    "metrics": {
+      "latency_seconds": 3.5,
+      "timestamp": "2026-04-13T17:27:24.851227",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "O que é o Desconto Social de Energia Elétrica e quando entrou em vigor?",
+    "reference": "O Desconto Social é uma nova modalidade criada pela Lei 15.235/2025 para famílias inscritas no CadÚnico com renda per capita entre ½ e 1 salário mínimo. Garante tarifa reduzida e isenção das quotas da CDE para consumo de até 120 kWh/mês. Entrou em vigor em 1º de janeiro de 2026.",
+    "type": "factual",
+    "key_facts": [
+      "Desconto Social",
+      "½ e 1 salário mínimo",
+      "120 kWh",
+      "janeiro de 2026"
+    ],
+    "response": "O desconto social de energia elétrica refere-se à redução dos custos das transmissões públicas para os usuários privados. Ele começou a entrar em vigor em 8 de setembro de 2021, após uma revisão contínuca da Lei Federal nº 15.235/2025, alterando as regras sobre tarifas sociais de energia elétrica.\n\nÉ importante notar que esta mudança não afeta diretamente qualquer pessoa ou empresa que tenha recebido esses benefícios por meio do Programa Lúcio Mendonça.",
+    "retrieval_scores": [
+      0.6284508109092712,
+      0.5785630941390991,
+      0.5628756284713745
+    ],
+    "metrics": {
+      "latency_seconds": 4.92,
+      "timestamp": "2026-04-13T17:27:29.776129",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Quantas unidades consumidoras podem receber o benefício da Tarifa Social para uma mesma família?",
+    "reference": "Apenas uma unidade consumidora por família.",
+    "type": "factual",
+    "key_facts": [
+      "uma",
+      "unidade consumidora"
+    ],
+    "response": "A quantidade máxima que as famílias poderiam ter acesso aos benefícios da Tarifa Social dependendo das condições específicas seria limitadas pela capacidade física dos membros da família. No entanto, embora seja possível considerar várias possibilidades dentro desses limites, sem informações detalhadas sobre os desafios individuais dessa situação, podemos concluir que geralmente existiría limite superior às quatro familias disponíveis conforme mencionou nos trechos anteriores. Portanto, se você tivesse dúvidas sobre quantos beneficiários realmente estão sendo atendidos pelo sistema, isso dependeria diretamente da real condição econômica e pessoal das pessoas envolvidas.",
+    "retrieval_scores": [
+      0.7567920684814453,
+      0.6182003617286682,
+      0.6175683736801147
+    ],
+    "metrics": {
+      "latency_seconds": 4.22,
+      "timestamp": "2026-04-13T17:27:33.997518",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "O que acontece se o consumidor não atualizar o cadastro no CadÚnico por mais de 2 anos?",
+    "reference": "A família perde o benefício da Tarifa Social.",
+    "type": "factual",
+    "key_facts": [
+      "2 anos",
+      "perde o benefício"
+    ],
+    "response": "Se o consumidor fornecer informações incorretos sobre sua situação como beneficiado pelo Beneficio Nacional de Saúde (BNSS), ele poderá perder seus direitos. Isso ocorreria porque:\n\n1. Não há garantias para quem ainda está sem informações corrigidas.\n2. Seu benefício será considerado perdido desde então.\n3. Você terá que recorrer à Anatel (Agencia Nacional dos Telefones Mobiliários) novamente para solicitar novas informações.\n\nPortanto, esta resposta corresponde às regras específicas aplicadas pela ANALEM (Análise, Estatística e Législativo).",
+    "retrieval_scores": [
+      0.7026886940002441,
+      0.6432082056999207,
+      0.5939088463783264
+    ],
+    "metrics": {
+      "latency_seconds": 4.65,
+      "timestamp": "2026-04-13T17:27:38.649001",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual norma reformulou a Tarifa Social em 2025?",
+    "reference": "A Lei nº 15.235/2025, conversão da Medida Provisória nº 1.300/2025, que instituiu o programa 'Luz do Povo'.",
+    "type": "factual",
+    "key_facts": [
+      "Lei 15.235/2025",
+      "MP 1.300/2025",
+      "Luz do Povo"
+    ],
+    "response": "O Programa Lútez do Povo (TPV - Telefômetro Público Vídeo) foi uma das mudanças significativas para as tarifas energéticas brasileiras após a Lei nº 15.235/2025. Esta nova regra alterava os valores dos preços associados à energia elétrica, tornando-as menos acessíveis aos usuários urbanos ao longo deste ano. O novo sistema levantaria as tarifas como se fossem pagamentos mensais ou parcelares, mantendo-se igualmente efetivo até dezembro seguinte. Isso significa que esses custos não serão cobertos pelo usuário individual enquanto ele permanece conectado à rede pública.",
+    "retrieval_scores": [
+      0.6624925136566162,
+      0.6455593705177307,
+      0.5762660503387451
+    ],
+    "metrics": {
+      "latency_seconds": 5.28,
+      "timestamp": "2026-04-13T17:27:43.928926",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "O que acontece com a cobrança quando a distribuidora cobra um valor indevido?",
+    "reference": "A distribuidora deve restituir o valor cobrado indevidamente em dobro ao consumidor, conforme o Código de Defesa do Consumidor.",
+    "type": "factual",
+    "key_facts": [
+      "em dobro",
+      "restituição",
+      "Código de Defesa do Consumidor"
+    ],
+    "response": "A distribuição das quantias incorretoras ocorrerá automaticamente em dois reais pelo consumador. No entanto, as empresas podem solicitar uma compensação maior através dos meios previstos pela Anatel (Anvisa). Se houver alguma dificuldade em obter esta compensação, os interessados possuem opções legítimas:\n\n### Prioridades Eletrológicas\nOs consumidores dependentes são incluídos nos critérios prioritários da Anel Elétrico, garantindo acesso aos serviços básicos sem custeio extra.\n\n### Recursos Legislativos\nAs leis brasileiras também oferecem recursos específicos para aqueles afetadas pelas despesas indiretas. Por exemplo, a Lei nº 9.408/15 permite a recolha de multas sobre prestações inadimplentes até R$ 1 milhão, mas isso só será aplicável após a conclusão de processos administrativos judiciais contra a empresa responsável pelos danosos pagamentos.\n\nÉ importante notar que essas medidas estão limitadas às condições mais extremistas existentes atualmente. As informações fornecidas aqui foram aproximativas e geralmente refletem situações recentemente revisadas pela Anatel.",
+    "retrieval_scores": [
+      0.6804955005645752,
+      0.6075922250747681,
+      0.5525731444358826
+    ],
+    "metrics": {
+      "latency_seconds": 9.38,
+      "timestamp": "2026-04-13T17:27:53.312103",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "A distribuidora pode exigir que o novo morador pague dívidas de energia do morador anterior?",
+    "reference": "Não. A dívida pertence ao titular da conta (pessoa), não ao imóvel. A distribuidora não pode cobrar o novo morador nem exigir que ele assine qualquer documento assumindo a dívida anterior.",
+    "type": "factual",
+    "key_facts": [
+      "não pode cobrar",
+      "dívida pertence ao titular",
+      "não ao imóvel"
+    ],
+    "response": "Sim, conforme os contextos fornecidos:\n\n**Trecho 1**: Não está claro diretamente sobre isso; mas geralmente uma distribuição deve garantir que todos possam fazer suas próprias decisões financeira independentemente dos outros usuários.\n\n**Trecho 2**: Esta informação parece estar relacionada às políticas públicas específicas aplicáveis aos sistemas de energia elétrica brasileiros. Ela menciona que as distribuições têm obrigações legislativas necessárias para evitar conflito entre proprietário e usuário quando há alterações significativa nesse tipo de contrato.\n\n**Trechos 3 e 4**: Estão mais detalhando aspectos técnicos envolvente dessa situação específica. No entanto, essas informações também podem ser consideradas confusas porque elas estão focadas principalmente em questões administracionais e regulatórias sem especificar quaisquer limitanças orçamentares ou outras condições adicional relevantes para novos moradores.\n\nPortanto, embora seja possível entender algumas partes dessas perguntas, ela ainda requer maior clarificação quanto à natureza real desse pedido específico referido nesta resposta.",
+    "retrieval_scores": [
+      0.5053920745849609,
+      0.4815439283847809,
+      0.47080686688423157
+    ],
+    "metrics": {
+      "latency_seconds": 8.57,
+      "timestamp": "2026-04-13T17:28:01.882568",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "O consumidor eletrodependente tem prioridade no atendimento em emergências?",
+    "reference": "Sim. Consumidores que dependem de equipamentos elétricos para sobrevivência, devidamente cadastrados junto à distribuidora, têm prioridade no atendimento em emergências, conforme norma da ANEEL.",
+    "type": "factual",
+    "key_facts": [
+      "prioridade",
+      "cadastrado",
+      "equipamentos elétricos",
+      "sobrevivência"
+    ],
+    "response": "Sim, o consumidor eletrodependente está prioritário nos serviços de atendimento durante as crises como emergencies.",
+    "retrieval_scores": [
+      0.6742082238197327,
+      0.5893261432647705,
+      0.5645154714584351
+    ],
+    "metrics": {
+      "latency_seconds": 0.96,
+      "timestamp": "2026-04-13T17:28:02.846746",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual é o acréscimo na fatura na Bandeira Tarifária Amarela?",
+    "reference": "R$ 1,885 por 100 kWh consumidos.",
+    "type": "factual",
+    "key_facts": [
+      "R$ 1,885",
+      "100 kWh"
+    ],
+    "response": "O acréscimo na fatura para a Bandeira Tarifária amaranhal será de:\n\nR\\$ 1,885 / 100 kWh\n\nPortanto, você pagará R\\$ 1,885 menos cada 100 kilowatt-hours sobre os valores previstos nos padrões de qualidade das bandebras mencionados anteriormente.",
+    "retrieval_scores": [
+      0.5932106971740723,
+      0.5641943216323853,
+      0.5100828409194946
+    ],
+    "metrics": {
+      "latency_seconds": 3.04,
+      "timestamp": "2026-04-13T17:28:05.889100",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual é o acréscimo na fatura na Bandeira Vermelha Patamar 2?",
+    "reference": "R$ 9,492 por 100 kWh consumidos.",
+    "type": "factual",
+    "key_facts": [
+      "R$ 9,492",
+      "100 kWh"
+    ],
+    "response": "O acréscimo para a bandaira verde patamar 2 é de:\n\nR\\$ 9,492/100 kWh.",
+    "retrieval_scores": [
+      0.5786256790161133,
+      0.5617249011993408,
+      0.4945513904094696
+    ],
+    "metrics": {
+      "latency_seconds": 1.17,
+      "timestamp": "2026-04-13T17:28:07.065233",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Quem define mensalmente qual bandeira tarifária está em vigor?",
+    "reference": "A ANEEL (Agência Nacional de Energia Elétrica).",
+    "type": "factual",
+    "key_facts": [
+      "ANEEL",
+      "mensalmente"
+    ],
+    "response": "A resposta correta para esta questão seria que o Sistema Nacional das Energias Elétricas (SNE), como mencionado nos trechos anteriores, determina os valores dos sistemas de bandeiragens tarifárias através de anualmente fechando cadastros ou registos regulares. Portanto, não há uma única \"bandeira\" específica definida pelo SANE diretamente - cada órgão responsável pelos serviços energéticos brasileiros precisa ajustar suas próprias regiões específicamente conforme necessário.",
+    "retrieval_scores": [
+      0.5674698352813721,
+      0.5435197353363037,
+      0.5332443714141846
+    ],
+    "metrics": {
+      "latency_seconds": 3.56,
+      "timestamp": "2026-04-13T17:28:10.627316",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Em quantas vezes uma pessoa física pode parcelar débitos com a distribuidora?",
+    "reference": "Em até 24 vezes, com entrada mínima de 10% do valor total.",
+    "type": "factual",
+    "key_facts": [
+      "24 vezes",
+      "10%",
+      "entrada mínima"
+    ],
+    "response": "A pessoa física tem até 24 parcelamentos sem necessidade de pagamento mínimo de 10%.",
+    "retrieval_scores": [
+      0.729559600353241,
+      0.5979555249214172,
+      0.5567368268966675
+    ],
+    "metrics": {
+      "latency_seconds": 0.73,
+      "timestamp": "2026-04-13T17:28:11.356999",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Uma empresa (pessoa jurídica) pode parcelar débitos de energia? Em quantas vezes?",
+    "reference": "Sim, em até 12 vezes.",
+    "type": "factual",
+    "key_facts": [
+      "12 vezes",
+      "pessoa jurídica"
+    ],
+    "response": "Sim, uma pessoa juridica poderia parcelar seus débits de energia através dos canais de atendimento da distribuição. No entanto, as limitações mencionadas são:\n\n### Parcimeto Ativo\nApenas os primeiros três meses podem ter parciais pagados por pessoas físicas.\n\n### Parcímato Diário\nPara quem tem menos de dois anos de contribuições fiscais, há limite máximo de duas parcelias diariantes.\n\nPortanto, esses requisitos devem ser observados se você deseja fazer esse tipo de pagamento regularmente.",
+    "retrieval_scores": [
+      0.6356709599494934,
+      0.5552418231964111,
+      0.5482378005981445
+    ],
+    "metrics": {
+      "latency_seconds": 5.74,
+      "timestamp": "2026-04-13T17:28:17.094500",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "A distribuidora pode cortar o fornecimento durante um parcelamento ativo?",
+    "reference": "Não, desde que as parcelas estejam sendo pagas em dia.",
+    "type": "factual",
+    "key_facts": [
+      "não pode cortar",
+      "parcelas em dia"
+    ],
+    "response": "Sim, uma vez que há um parcelamento activo, a distribuição poderia ser interrompida por conta própria sem avisos prévios. No entanto, isso seria considerada violação grave contra os direitos dos usuários, especialmente aqueles relacionadas às necessidades básicas como água e luz. É importante lembrá-lhes sobre seus direitos legais quando se enfrentarem situações assim.",
+    "retrieval_scores": [
+      0.6246476173400879,
+      0.6229284405708313,
+      0.6062242388725281
+    ],
+    "metrics": {
+      "latency_seconds": 3.78,
+      "timestamp": "2026-04-13T17:28:20.871693",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o prazo de validade dos créditos gerados por microgeração distribuída (energia solar)?",
+    "reference": "60 meses (5 anos).",
+    "type": "factual",
+    "key_facts": [
+      "60 meses",
+      "5 anos"
+    ],
+    "response": "Os críticos geradores distribuídas são obrigatórios desde os primeiros dias após sua implantação ou quando serão adquiridos novos dispositivos conforme as especificações técnicas fornecidas pelos fabricantes. Portanto, não há uma validade específica como mencionadas neste trecho específico sobre \"prazo\" nem referido à solicitação de crédito. O sistema de SCEE só se aplicará às infraestrutura já existentes, então esses critérios específicos estão relacionados apenas com a implementação desses recursos futuros. Se você está interessado mais profundamente nesse aspecto, seria melhor consultar diretamente com a Anatel ou consultores especializados nesta área.",
+    "retrieval_scores": [
+      0.5980612635612488,
+      0.59471595287323,
+      0.5472131967544556
+    ],
+    "metrics": {
+      "latency_seconds": 5.66,
+      "timestamp": "2026-04-13T17:28:26.528386",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o prazo para análise técnica de pedido de conexão de microgeração de até 75 kW?",
+    "reference": "Até 30 dias.",
+    "type": "factual",
+    "key_facts": [
+      "30 dias"
+    ],
+    "response": "O prazo mínimo para uma avaliação técnicas de solicitações relacionados à microgeragem inicializada por menos de 75kW pode variar dependendo das especificações específicas dos processos envolvidos:\n\n1. Se for solicitante individual ou empresa pequena, geralmente há limites temporários como 6 meses ao final do ano.\n\n2. Para empresas grandes ou particulares mais complexa, os períodos podem ser maior, mas ainda não estão garantidos.\n\nÉ importante verificar diretamente com a Anatel ou consultando informações oficiais sobre cada caso específico antes de fazer qualquer requisição.",
+    "retrieval_scores": [
+      0.701184093952179,
+      0.6480854153633118,
+      0.6276102066040039
+    ],
+    "metrics": {
+      "latency_seconds": 3.68,
+      "timestamp": "2026-04-13T17:28:30.207694",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Sistemas de geração distribuída instalados antes de janeiro de 2023 pagam a Tarifa Fio B?",
+    "reference": "Não. Sistemas conectados antes de janeiro de 2023 mantêm isenção total da Tarifa Fio B por 25 anos a partir da data de conexão.",
+    "type": "factual",
+    "key_facts": [
+      "não pagam",
+      "isenção total",
+      "25 anos"
+    ],
+    "response": "Sim, os sistemas de geração distribuídas que foram instalados até então não cobram tarifaria FIO B desde Janeiro de 2023. O uso dos sistemas foi previsto como uma opção financeira inicial nos primeiros meses após sua implantação. No entanto, as informações específicas sobre a aplicação das tarIFAs podem variar dependendo das condições particulares desses dispositivos. É sempre recomendável consultar diretamente com a concessionária responsável pelo serviço para obter detalhes mais precisos.",
+    "retrieval_scores": [
+      0.7917224764823914,
+      0.6229903697967529,
+      0.5920202732086182
+    ],
+    "metrics": {
+      "latency_seconds": 3.68,
+      "timestamp": "2026-04-13T17:28:33.885272",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual é a diferença entre microgeração e minigeração distribuída?",
+    "reference": "Microgeração corresponde a sistemas com potência instalada de até 75 kW. Minigeração corresponde a sistemas de 75 kW até 5 MW.",
+    "type": "factual",
+    "key_facts": [
+      "75 kW",
+      "5 MW",
+      "microgeração",
+      "minigeração"
+    ],
+    "response": "A principal diferenciação está nessa capacidade de gerir as suas próprias energias eletrônicas sem dependência dos fornecedores tradicionais:\n\n### Microgeração:\nÉ uma técnica onde os usuários criam seus próprios dispositivos de gerenciamento de energia elétrico. Isso inclui projetos como mini-generadores, soluções inteligentes e sistemas integrados de gestão de energia.\n\n#### Benefícios:\n- É mais eficiente porque você controla todos os aspectos envolvidos.\n- Pode ser muito econômico se for implementado corretamente.\n  \n#### Desvantagens:\n- Não tem controle sobre custos operacionais.\n- Dependendo do sistema, pode ter limitações técnicas.\n\n### Minigeração:\nPor outro lado, esta tecnologia permite aos usuários criar pequenos dispositivos de gerenciamento de energia dentro de casa. Os principais beneficios são economizar dinheiro por meio de reduzidas despesas de equipamentos e manutenção, além de possibilidade de personalização conforme necessidades individuais.\n\n#### Benefícios:\n- Economiza recursos através de poucos investimentos.\n- Possibilita maior flexibilidade quanto às demandas específicas.\n\n#### Desvencões:\nO uso de minigos requer licenças especiais desde a Anatel, então deve-se consultar antecipadamente antes de iniciar qualquer projeto.\n\nEm conclusão, embora ambos tenham vantagem competitória, cada método possui características úteis independentemente dele seja \"micro\" ou \"minigo\". A escolha final dependerá do contexto específico do usuário - tanto de consumo individual quanto de rede pública – e também considerando todas as condições locais.",
+    "retrieval_scores": [
+      0.6106571555137634,
+      0.48290443420410156,
+      0.4811713993549347
+    ],
+    "metrics": {
+      "latency_seconds": 12.52,
+      "timestamp": "2026-04-13T17:28:46.410706",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o canal gratuito da ANEEL para registrar reclamações?",
+    "reference": "O telefone 167 (gratuito) ou o portal aneel.gov.br.",
+    "type": "factual",
+    "key_facts": [
+      "167",
+      "gratuito",
+      "aneel.gov.br"
+    ],
+    "response": "A ANEEL oferece gratuitamente uma opção chamada \"canal de atendimento 24 horas\". Isso significa que você não precisa se preocupar com horário limitado nem precisará esperar mais tempo para receber sua mensagem.",
+    "retrieval_scores": [
+      0.5574072599411011,
+      0.5167461037635803,
+      0.5050435066223145
+    ],
+    "metrics": {
+      "latency_seconds": 1.51,
+      "timestamp": "2026-04-13T17:28:47.923754",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual é a principal norma que consolida os direitos e deveres do consumidor de energia elétrica?",
+    "reference": "A Resolução Normativa ANEEL nº 1.000/2021 (REN 1.000), atualizada diversas vezes, incluindo pela REN 1.147, de 09/12/2025.",
+    "type": "factual",
+    "key_facts": [
+      "REN 1.000/2021",
+      "Resolução Normativa"
+    ],
+    "response": "A principial norma que consolida os direitos e deveres do consumidor de energia elétrica é:\n\nRESOLUÇÃO NORMATIVA ANEEL Nº 1.000 / 2021 - \"REGULAMENTO DE DIREITOS E DO CONSUMIDOR DE ENERGIA ELÉTRICA\"\n\nEsta RESOLUÇÃO está centralmente relacionada à criação dos seguintes pontos importantes:\n\n- Consolidando as leis existentes sobre o assunto;\n- Estabelecendo uma estrutura legal específica para proteger esses direitos;\n\nPortanto, não há outra resposta possível neste contexto específico.",
+    "retrieval_scores": [
+      0.7754659056663513,
+      0.6601700782775879,
+      0.645068883895874
+    ],
+    "metrics": {
+      "latency_seconds": 3.9,
+      "timestamp": "2026-04-13T17:28:51.822032",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "O que são os indicadores DEC e FEC?",
+    "reference": "DEC é a Duração Equivalente de Interrupção por Unidade Consumidora e FEC é a Frequência Equivalente de Interrupção por Unidade Consumidora. São indicadores de qualidade do serviço regulados pela ANEEL, usados para calcular compensações automáticas ao consumidor.",
+    "type": "factual",
+    "key_facts": [
+      "DEC",
+      "FEC",
+      "duração",
+      "frequência",
+      "qualidade"
+    ],
+    "response": "Os indicadores DEC (Duración Equivalente de InterrUPraça) e FEC (Frequencia Equivalente de InterrUPraças) são critérios usados para avaliar as condições energéticas dos sistemas eletrônicos brasileiros. \n\nO DEC define como \"interrápacia\" quando há menos tempo entre interrupções que especificado pelo sistema. Por exemplo, se você está usando dois pacotes diferentes durante duas semanas consecutivas sem nenhum intervalo entre eles, isso seria considerado intérpretação incorreta ou infraestrutura inadequada.\n\nA FEC indica quanto cada pacote pode ser usado antes de precisar redefinir sua conexão. Se você usa três pacetes simultaneamente desde dezembro passando pela fevereiro, esse será classificado como infracionária porque não foi adequadamente definido.\n\nEssa avaliação ajuda a garantir que todos os usuários tenham acesso à mesma quantidade de energia eficiente e seguramente.",
+    "retrieval_scores": [
+      0.5343490242958069,
+      0.5260217189788818,
+      0.5212919116020203
+    ],
+    "metrics": {
+      "latency_seconds": 6.27,
+      "timestamp": "2026-04-13T17:28:58.093037",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Quanto custa instalar um sistema de energia solar fotovoltaica?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "A instalação de um sistema de energia solar fotovoltaico geralmente requer uma série de processos que variam dependendo das especificações específicas dos dispositivos envolvidos:\n\n1. **Condições Legais**: Dependendo do país onde você está operando as energias renováveis, há diferentes condições legais sobre como serem pagos pelos serviços prestados pelo fornecedor. No entanto, muitos países têm regulamentação específica quanto às tarifas desses tipos de investimentos.\n\n2. **Preços Pessoalizados**: O preço final varia muito dependerá do tipo de serviço oferecido, desde os básicos de cobertura básico até aquecimento térmico mais sofisticada. \n\n3. **Faturamento**: Seu consumo diário também influencia significativamente nos preços. Por exemplo, se for usado durante todo dia, tem menos chance de receber benefícios fiscais comparadas aos períodos limitados quando são usados apenas horas diárias.\n\n4. **Taxas Estaduais/Provinciais**: Existem algumas regiões brasileiras que podem ter suas próprias regras adicionais relacionadas diretamente à sua situação geográfica ou econômica.\n\nPara obter informações detalhadas sobre este processo específico, recomenda-se consultar diretamente com a empresa responsável pelas atividades de energia solares fotovolticistas localizadas nesse território nacional.",
+    "retrieval_scores": [
+      0.46693429350852966,
+      0.4448518753051758,
+      0.44429755210876465
+    ],
+    "metrics": {
+      "latency_seconds": 12.56,
+      "timestamp": "2026-04-13T17:29:10.651872",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual distribuidora de energia atende minha cidade?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "A distribuição que você está perguntando se refere às empresas fornecendo energia elétrica para sua região específica. No entanto, como sou uma inteligência artificial basada apenas em dados, eu não tenho acesso aos detalhes específicos das operações de cada empresa localizada em diferentes cidades brasileiros. Por favor, consulte diretamente os serviços oficiais dos seus clientes locais para obter esta informação precisa.",
+    "retrieval_scores": [
+      0.5162749290466309,
+      0.5032335519790649,
+      0.4931224584579468
+    ],
+    "metrics": {
+      "latency_seconds": 3.56,
+      "timestamp": "2026-04-13T17:29:14.216914",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Quero trocar para energia eólica na minha casa. Como faço?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "Para fazer esse tipo de alteração, você precisaria entrar em contato diretamente com as empresas fornecedoras de energia eletrônica. Elas geralmente oferecem serviços como:\n\n1. Consultar os preços atuais dos produtos disponíveis.\n2. Solicitar informações sobre novos modelos ou versões compatíveis.\n3. Comprovar se há descontos ou promoções válidas durante sua mudança.\n\nLembre-se sempre de verificar todas as condições específicas das tarifa e fatura antes de tomar qualquer decisão importante relacionadas às energias alternativas.",
+    "retrieval_scores": [
+      0.5548466444015503,
+      0.5468050241470337,
+      0.5101876258850098
+    ],
+    "metrics": {
+      "latency_seconds": 4.62,
+      "timestamp": "2026-04-13T17:29:18.834385",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o valor da minha conta de luz este mês?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "Para obter informações sobre sua conta atual por meio deste texto específico, você precisaria acessar uma fonte oficial como a Anatel (Agência Nacional Telefônica). No entanto, para calcular os custos mensuais das suas transações pelo sistema energético brasileiro, seria necessário entrar diretamente num ponto confidencial dentro dos sistemas eletrônicos associados às operadoras de telefonia móvel. Isso inclui as empresas teléfonicas, assinantes de redes Wi-Fi, entre outras instituições financeiras relacionadas aos serviços de telecomunicação. Não há nenhuma informação disponível neste tipo de contexto online sem acesso físico ou através de processamento digital eficiente desses dados. Se tivesse mais detalhes específicos sobre qual serviço está se referindo, poderíamos fornecer ajuda adicional.",
+    "retrieval_scores": [
+      0.48748502135276794,
+      0.486224889755249,
+      0.4801948666572571
+    ],
+    "metrics": {
+      "latency_seconds": 5.6,
+      "timestamp": "2026-04-13T17:29:24.436676",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Como faço para contratar um eletricista para reformar a instalação da minha casa?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "Para contrataremos um eletricista para realizar as obras necessárias para você renovar sua casa, aqui estão os passos básicos:\n\n1. **Conheça o Procurador**: Primeiro, procure pelo procurador responsável pela área onde está localizada sua residência. Você também poderia entrar em contato diretamente com a empresa contratante através dos telefones oficiais fornecidos pelas empresas.\n\n2. **Fale Conforme Obrigatório**: Seja claro sobre suas expectativas quanto às condições específicas das tarefas envolvidas (como tipo de serviço, quantidade de horas trabalhadas etc.), pois esses detalhes são importantes durante qualquer contrato.\n\n3. **Preparando-se Anteriormente**: Certifique-se de ter todos seus documentos legais preparados antes de fazer a solicitação. Isso inclui cópias dos seguintes documentos:\n\n   - Documentos pessoais como RG, CPF, CNH, carteira de identificação nacional/ou cidadão brasileiro.\n   \n4. **Entrega Completa Do Contrato**: Após receber todas as informações solicitadas, preparei conselhos técnicos adequados para garantir que tudo esteja pronto para ser fechado formalmente.\n\nLembre-se sempre de verificar se há limitações adicionais relacionadas aos serviços prestados pelos profissionais contratantes. Além disso, certifique-se de consultar antecedentes judiciais e outros registros sociais relevantes quando necessário.",
+    "retrieval_scores": [
+      0.5251537561416626,
+      0.524111270904541,
+      0.5240465998649597
+    ],
+    "metrics": {
+      "latency_seconds": 9.99,
+      "timestamp": "2026-04-13T17:29:34.426317",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Qual o melhor banco para fazer o financiamento de painéis solares?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "Para comprar painel solar eficiente, você tem várias opções disponíveis:\n\n### Banco Alternativo\n\nAqui estão algumas alternativas que podem ajudar:\n\n#### Banco Boleto Federal\nBanco Nacional de Portugal (BNPL)\n[Link](https://www.bancomex.com.br/)\n\nEste banco oferece uma ampla gama de produtos financeiros, incluindo bancos virtuais como BNPLs.\n\n#### Banco Santander\nSantander S.A., Banque Central Europee\n[Bancário Online]\n[Site oficial]\n\nEsta instituição também permite operações online e possui diversos tipos de cartões de crédito.\n\n#### Banco Bradesco\nBradesco S/A\n[Fundação Bancária]\n[Avaliação Financeira]\n\nOs bancos brasilísticos são frequentemente considerados mais seguros por conta dos seus sistemas de segurança digitalizados.\n\n#### Banco Itau\nItaquaquecetuba.itau.com/\n[Nome do Banco]\n[Página Web Oficial]\n\nÉ importante verificar se os bancos mencionados têm coberturas adequadas contra riscos relacionados aos investimentos em tecnologia energética.\n\nLembre-se sempre de comparar as condições das diferentes empresas antes de tomar decisão sobre sua escolha financeira.",
+    "retrieval_scores": [
+      0.5042115449905396,
+      0.48940542340278625,
+      0.4780787527561188
+    ],
+    "metrics": {
+      "latency_seconds": 8.5,
+      "timestamp": "2026-04-13T17:29:42.923323",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Meu vizinho está usando energia elétrica de forma irregular. O que eu faço?",
+    "reference": "Não posso responder essa pergunta!",
+    "type": "out_of_domain",
+    "key_facts": [],
+    "response": "Se você percebe que o seu vizinho não segue as regras básicas sobre uso adequado das energias eletrônicas para economizar recursos ou evitar desperdícios excessivos, pode ser útil discutir isso com eles. Isso também poderia ajudar a entender melhor suas necessidades específicas relacionadas à utilização eficiente dos serviços de energia elétrica. Se houver alguma preocupação específica envolvida nessa questão, seria importante falar explicitamente com os seus familiares ou amigos próximos para garantir que todos estejam se comunicando adequadamente.",
+    "retrieval_scores": [
+      0.519975483417511,
+      0.4949600398540497,
+      0.4833245873451233
+    ],
+    "metrics": {
+      "latency_seconds": 4.7,
+      "timestamp": "2026-04-13T17:29:47.622848",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Quais documentos são necessários para solicitar ligação nova?",
+    "reference": "CPF ou CNPJ do titular, comprovante de propriedade ou contrato de locação. Para média e alta tensão, também é necessário projeto elétrico aprovado.",
+    "type": "procedural",
+    "key_facts": [
+      "CPF",
+      "CNPJ",
+      "comprovante de propriedade",
+      "contrato de locação",
+      "projeto elétrico"
+    ],
+    "response": "Para solicitar uma ligação nova, você precisará fornecer os seguinte:\n\n### Documentos Necessarios\n\nOs documentos que devem ser apresentados dependendo dos tipos específicos das unidades residenciais podem variar consideravelmente. No entanto, aqui estão algumas coisas básicas geralmente requeridas:\n\n#### Unidades Residenciais de Baixo Tensão Monofásico/Bifásico (Áreas Urbanas)\n\n- **Contrato**: Uma cópia precisa deste documento deve estar disponível junto aos outros requisitos exigidos pela sua empresa de distribuição.\n  \n- **Data de Atividade**: Informações detalhando quando foi instalada a rede elétrica.\n\n#### Unidades Residênciais Comerciais de Baixo Tensão Tripla Física (Áreas Urbanas)\n\n- **Contratos**: Um contrato específico incluindo todas essas características também será necessário.\n\n#### Médias e Alta Tensão\n\n- **Condições Gerais**: A informação básica como horário de funcionamento normal seria suficiente.\n\nSe for algum outro tipo de serviço diferente, tamanha condição específica poderiam ainda ser relevante.\n\nLembre-se sempre de verificar se há obrigações adicionais legais relacionadas às suas operações, pois isso pode influenciar diretamente seus processos de negociação. Se houver dúvidas sobre quais documentos serão necessários, recomenda-se consultar diretamente com a sua distribuidor localizada.",
+    "retrieval_scores": [
+      0.6350252628326416,
+      0.5642739534378052,
+      0.5538605451583862
+    ],
+    "metrics": {
+      "latency_seconds": 9.5,
+      "timestamp": "2026-04-13T17:29:57.128711",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Como solicitar ressarcimento por equipamento danificado por falha no fornecimento?",
+    "reference": "O consumidor deve registrar o pedido junto à distribuidora apresentando: nota fiscal ou comprovante de compra do equipamento, três orçamentos de conserto (ou laudo técnico de irrecuperabilidade), fotos ou vídeos do dano e fatura do período da ocorrência.",
+    "type": "procedural",
+    "key_facts": [
+      "nota fiscal",
+      "três orçamentos",
+      "laudo técnico",
+      "fotos",
+      "fatura do período"
+    ],
+    "response": "Para receber ressarcimento por danos a equipamentos que foram afetados por uma falha no fornecimento, você deve seguir os seguintes passos:\n\n### Prazo Para Solicitação\nO período máximo para fazer pedido de reparação depende das regra específicas aplicáveis às suas operações. No entanto, geralmente há limites temporários definidos pelas regulamentares como \"prazos mínimos\" ou \"temporais\". \n\nSe sua empresa não especificou nenhuma data limite específica, muitas vezes as empresas podem oferecer recursos flexíveis durante alguns períodos finais dos seus contratos.\n\n### Método Simplificável\nA maioria das regiões brasileiras permite que você procure serviços imediatamente depois que perceba algum problema. Isso inclui casos onde haja certificação médica indicativa sobre possibilidade de problemas mecânicos relacionadas aos produtos usados.\n\n### Conserto Antecipado\nEm algumas situações excepcionais, especialmente se a falha foi provocada por causa de mal funcionamento da rede eléctrica localizada próximo ao domicílio, isso também poderia exigir congelamento de tempo adicional.\n\nLembre-se sempre de verificar todas as informações disponíveis diretamente com a distribuição responsável para garantir que todos esses processos estão sendo cumulativos corretamente.",
+    "retrieval_scores": [
+      0.6648067831993103,
+      0.6473957300186157,
+      0.6324097514152527
+    ],
+    "metrics": {
+      "latency_seconds": 9.8,
+      "timestamp": "2026-04-13T17:30:06.930219",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "O que fazer se a distribuidora não resolver minha reclamação?",
+    "reference": "O consumidor deve escalar seguindo esta ordem: (1) Ouvidoria da distribuidora, com prazo de resposta de até 10 dias úteis; (2) ANEEL pelo telefone 167 (gratuito) ou portal aneel.gov.br; (3) PROCON estadual; (4) Juizado Especial Cível para casos de menor complexidade, sem necessidade de advogado; (5) Justiça comum para casos complexos ou de valor elevado.",
+    "type": "procedural",
+    "key_facts": [
+      "ouvidoria",
+      "ANEEL",
+      "167",
+      "PROCON",
+      "Juizado Especial"
+    ],
+    "response": "Se você for atendido pela Distribuição Eletronográfico Nacional Elétricosa (DENE), como está sendo solicitada pelo texto fornecido:\n\nA recomendação geral seria seguir os passos abaixo dependendo das circunstâncias específicas:\n\n### Prazo para Solicitação\nOs requisitos são mínimos, mas podem variar conforme as condições particulares dos serviços prestados pelos operadores eletrônicos. No entanto, normalmente há uma garantida de tempo limitado para receber sua mensagem de reembolso ou solução definitiva sobre problemas técnicos relacionadas aos seus dispositivos eletrônicos.\n\n### Rito Simplificado\nPara aqueles que precisam apenas de reparação rápida e eficiente, o rito simples oferecido pelas redes públicas de telecomUNI também funciona bem. Isso inclui solucionando qualquer problema técnico imediatamente depois que seja informado através de SMS/WhatsApp.\n\n### Conserto Antecipado\nNo caso específico mencionado, onde o consumidor precisa realizar algum tipo de substituto ou ajuste automático automaticamente durante o período previsto, isso poderia ser considerado um serviço adicional chamado \"conserto prévio\". Este requerem alguns documentos adicionais, como certidão de origem e provérbios de confiança, além disso, muita parte deste processo envolve processos administrativos internacionais.\n\nÉ importante lembrar que esses métodos devem estar dentro dos termos legítimos dessas empresas e deve-se ter cuidado quando fazê-lo pois eles possivelmente estão usando suas próprias ferramentas tecnológicas para lidarem dessa situação específica.\n\nEm última análise, sempre procure informações claras e diretivas desde a fonte oficial responsável para entender completamente todas as opiniões disponíveis. Se tiver dúvidas, lembra-se de procurá-las diretamente nos canais oficiais da DENE ou consultará junto ao Procon Estadual.",
+    "retrieval_scores": [
+      0.5714655518531799,
+      0.5198991894721985,
+      0.5113942623138428
+    ],
+    "metrics": {
+      "latency_seconds": 14.73,
+      "timestamp": "2026-04-13T17:30:21.659227",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Como me cadastrar na Tarifa Social de Energia Elétrica?",
+    "reference": "O benefício pode ser concedido automaticamente quando os dados do CadÚnico ou BPC estão atualizados e cruzados com os cadastros da distribuidora. Caso o desconto não apareça na fatura, o consumidor deve procurar a distribuidora com o NIS (Número de Identificação Social) ou comprovante de BPC, CPF e comprovante de residência. A conta de energia deve estar em nome de um membro da família beneficiada.",
+    "type": "procedural",
+    "key_facts": [
+      "CadÚnico",
+      "NIS",
+      "BPC",
+      "CPF",
+      "comprovante de residência",
+      "distribuidora"
+    ],
+    "response": "Para cálculo ou registro para a tarifa social de energia elétrica:\n\n- Faça uso dos programas oficiais disponíveis pelo governo federal.\n  \n- Se você não tiver acesso à internet, pode procurar atendimentos físicos nos órgãos públicos onde se enquadra sua situação familiar.\n\n- Certifique-se de verificar as regras específicas aplicáveis às suas necessidades individuais.\n\nSe precisar de ajuda adicional sobre como fazer isso online, recomendo entrar em contato diretamente com os serviços essenciais relacionados à saúde pública brasileira.",
+    "retrieval_scores": [
+      0.7033834457397461,
+      0.625609815120697,
+      0.5763475894927979
+    ],
+    "metrics": {
+      "latency_seconds": 4.03,
+      "timestamp": "2026-04-13T17:30:25.694064",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Como solicitar o parcelamento de débito de energia elétrica?",
+    "reference": "O consumidor inadimplente deve entrar em contato pelos canais de atendimento da distribuidora (telefone 0800, app, site ou agência presencial) e solicitar o parcelamento. Pessoas físicas podem parcelar em até 24 vezes com entrada mínima de 10% do total; pessoas jurídicas em até 12 vezes.",
+    "type": "procedural",
+    "key_facts": [
+      "canais de atendimento",
+      "24 vezes",
+      "10%",
+      "12 vezes"
+    ],
+    "response": "Para solicitar o parcelamento de sua conta de energia elétrica, você deve seguir as instruções abaixo dependendo dos tipos específicos das suas operações:\n\n### Para Pessoas Físicas:\nSe for uma pessoa físicamente ligada à empresa, geralmente será necessário entrar em contato através de telefone para realizar esse pedido. No entanto, se está usando serviços como cartão de crédito ou débito bancario, eles podem oferecer opções mais flexíveis sem necessariamente precisarem pagar pela entrega manual.\n\n### Para Pessoas Jurídicas:\nAs empresas têm limites definidos pelo Regulamentado sobre quantidades permitidas durante períodos ativos e parciais. Seja qual seja o tipo específico desses limites, seria importante verificar essas informações antes de pedir ao serviço.\n\nLembre-se sempre de garantir que todos estão dentro dos prazos legítimos quando fazem pagamentos. Além disso, certifique-se de ter todas as documentações necessárias disponíveis para validade desse processo.\n\nEm caso de dúvidas, recomenda-se consultar diretamente com a agência comercial localizada próximo às suas lojas eletrônicas ou redes sociais associadas aos seus canais de atendimento.",
+    "retrieval_scores": [
+      0.6954711675643921,
+      0.5549618005752563,
+      0.5434869527816772
+    ],
+    "metrics": {
+      "latency_seconds": 8.49,
+      "timestamp": "2026-04-13T17:30:34.187194",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Como registrar um eletrodependente junto à distribuidora?",
+    "reference": "O consumidor que depende de equipamentos elétricos para sobrevivência deve se cadastrar junto à distribuidora informando sua condição. O cadastro garante prioridade no atendimento em emergências. O contato deve ser feito pelos canais de atendimento da distribuidora, incluindo o canal 24 horas.",
+    "type": "procedural",
+    "key_facts": [
+      "cadastrar",
+      "distribuidora",
+      "prioridade",
+      "canal de atendimento"
+    ],
+    "response": "Para registrar um dependente eletrônico junto à sua distribuição, você precisa seguir os seguintes passos:\n\n### Passo 1: Atualize a Informações\n\nPrimeiro, certifique-se que todas as suas informações estão atualizadas corretamente. Isso inclui:\n\n- Nome completo do cliente\n- Endereço físico onde está instalado o dependente \n- Telefone fixo e celular dos clientes envolvidos\n- Data de instalação do dependente  \n- Tipo de Dependente Eletrônicos (como TV, LCD, etc.)\n- Código de Conformidade Nacional (CNC)\n\n### Passo 2: Realizar Vistorias Técnicas \n\nSe for necessário fazer uma verificação mais profunda das condições físicas do dependente, talvez seja recomendável solicitar uma visita técnica pelo serviço de reparação de depósito. No entanto, este processo geralmente não requer pagamento adicional além do fornecido pela distribuidor.\n\n### Passo 3: Solicitação de Registro\n\nAgora, preparei-lhe algumas instruções gerais para ajudá-lo nessa etapa importante:\n\n#### Comunicação com Distribuidores\n\nAo comunicar seus dados aos funcionários da distribuição, lembrem-se de usar termos claros como \"Dependentes Eletrônicos\" e garantir que todos sejam informativos quando solicitarem serviços técnicos.\n\n#### Processo de Revisão\n\nNo momento da consulta inicial, pergunte qual tipo de dependente específico deseja verificar e faça isso diretamente com a equipe responsável. Se houver algum problema relacionado a esse dependente, eles podem sugerirem outras opções conforme necessário.\n\nPor favor, tenha cuidados durante esta fase porque qualquer erro pode afetar seriamente a segurança e eficiência operacional da empresa.\n\nLembre-se também de ter sempre disponível contato telefónico contínuo para esclarecer dúvidas futuras!",
+    "retrieval_scores": [
+      0.6065331697463989,
+      0.5673946142196655,
+      0.5490041971206665
+    ],
+    "metrics": {
+      "latency_seconds": 14.1,
+      "timestamp": "2026-04-13T17:30:48.285867",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Como solicitar a conexão de um sistema de microgeração distribuída (energia solar)?",
+    "reference": "O consumidor deve protocolar pedido de conexão junto à distribuidora. O prazo para análise técnica é de até 30 dias para sistemas de até 75 kW. Após aprovação, o sistema é conectado à rede e os excedentes injetados geram créditos com validade de 60 meses, utilizáveis em qualquer unidade do mesmo titular.",
+    "type": "procedural",
+    "key_facts": [
+      "protocolar pedido",
+      "distribuidora",
+      "30 dias",
+      "75 kW",
+      "créditos",
+      "60 meses"
+    ],
+    "response": "Para solicitarmos uma conexão à nossa solução de microgeração distribuída (solar), você precisará seguir os seguintes passos:\n\n1. **Anexamos o Plano de Controle Climático**: Acesse nosso site ou contato diretamente através dos nossos números telefônicos para obter mais informações sobre como anexá-lo ao plano de controle climático.\n\n2. **Compreendemos as Condições Gerais**: Ao acessar este link, verifique se há alguma informação específica relacionada aos critérios de gerenciamento geral das energias renováveis disponíveis nos seus limites geográficos.\n\n3. **Confiável Consulta Comunitária**: Se tiver acesso às notícias oficiais da Anatel (Agencia Nacional Teleatória) localizada em sua área, pode consultar dados específicos sobre suas possibilidades de cobertura.\n\nSe ainda não tem certidões de uso legal suficientemente confiáveis, sugerimos entrar em contato convidando-lhe para fazer uma consulta profissional antes de tomar qualquer decisão envolvendo esse tipo de investimento.",
+    "retrieval_scores": [
+      0.5369064807891846,
+      0.488689124584198,
+      0.48445940017700195
+    ],
+    "metrics": {
+      "latency_seconds": 7.79,
+      "timestamp": "2026-04-13T17:30:56.079047",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Como verificar se a distribuidora está cumprindo os prazos de restabelecimento durante uma interrupção?",
+    "reference": "O consumidor pode acompanhar pelo site da distribuidora, que deve ser atualizado a cada 30 minutos com a lista de ocorrências abertas, número de consumidores afetados e mapa das áreas atingidas. Também pode ligar para o canal 24 horas da distribuidora para obter a previsão de normalização.",
+    "type": "procedural",
+    "key_facts": [
+      "site da distribuidora",
+      "30 minutos",
+      "canal 24 horas",
+      "mapa de ocorrências"
+    ],
+    "response": "Para verificação dos prazos de restabelecer serviços nos dias úteis, você pode seguir esses passos básicos:\n\n1. Verifique sua conta bancária ou agendar consultoria financeira confiáveis.\n   \n2. Faça contato diretamente com a empresa responsável pelo serviço prestado. \n   Pode ser através de telefone, email ou fone móvel.\n\n3. Consulte documentação legal relacionadas aos termos gerais de contrato,\n    como pagamentos fechados e garantias contra hipótese de não pagamento.\n\n4. Procure informações sobre processos administrativos legais referenciando-se às leis brasileiras aplicáveis\n\nLembre-se sempre de consultar profissionalmente antes de tomar qualquer decisão envolvendo seus dados pessoal.",
+    "retrieval_scores": [
+      0.6536945104598999,
+      0.6413779854774475,
+      0.6315310001373291
+    ],
+    "metrics": {
+      "latency_seconds": 5.18,
+      "timestamp": "2026-04-13T17:31:01.264682",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "O consumidor precisa pagar alguma taxa para obter a ligação nova residencial?",
+    "reference": "A base de conhecimento não especifica taxas para ligação nova residencial. O consumidor deve consultar a tabela de encargos homologada pela ANEEL ou entrar em contato com a distribuidora para verificar os valores aplicáveis.",
+    "type": "procedural",
+    "key_facts": [
+      "tabela ANEEL",
+      "distribuidora"
+    ],
+    "response": "Sim, os consumidores precisam pagar algumas tarifa extras quando solicitados pela empresa para realizar a solicitação de novas conexões à luz. Por exemplo:\n\n- **Taxa Extra**: Em alguns casos, pode ser necessário cobrar uma taxa extra pelo serviço de instalação ou manutenção das redes eletrônicas antes que as pessoas possam começar suas atividades diárias usando essas linhas de comunicação.\n\nÉ importante lembrar que estas arestas podem variar dependendo dos serviços específicos oferecidos pelas empresas responsáveis pelos projetos de rede pública de energia elétrica localizada nos seus locais habitacionais. Se você está enfrentando problemas relacionados aos processos de inscrição de novas conexões, recomenda-se entrar em contato diretamente com a sua concessionária de energia ou consultor técnico adequado para garantir que todos sejam atendidos adequadamente.",
+    "retrieval_scores": [
+      0.5928373336791992,
+      0.5901433229446411,
+      0.5755289793014526
+    ],
+    "metrics": {
+      "latency_seconds": 6.99,
+      "timestamp": "2026-04-13T17:31:08.261726",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "A compensação por ultrapassagem do prazo de restabelecimento é automática ou precisa ser solicitada?",
+    "reference": "É automática. A compensação é calculada com base nos indicadores DEC e FEC e aplicada diretamente na fatura seguinte, sem necessidade de qualquer solicitação por parte do consumidor.",
+    "type": "conditional",
+    "key_facts": [
+      "automática",
+      "DEC",
+      "FEC",
+      "fatura seguinte",
+      "sem solicitação"
+    ],
+    "response": "A compensação por ultrapassar o prazo de restabelecer sua fatura regularmente é automaticamente aplicável. No entanto, se houver uma falha grave como desvios de energia (\"catamarã\") que justifique, você poderá exigir a realização de uma consulta ao consórcio local.",
+    "retrieval_scores": [
+      0.5364638566970825,
+      0.5242424011230469,
+      0.5034347772598267
+    ],
+    "metrics": {
+      "latency_seconds": 1.95,
+      "timestamp": "2026-04-13T17:31:10.214950",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Se o corte de energia ocorreu por erro da distribuidora, o consumidor paga taxa de religação?",
+    "reference": "Não. A religação é gratuita quando o corte tiver ocorrido por erro da distribuidora. A cobrança de taxa só se aplica quando o corte foi motivado por inadimplência do consumidor.",
+    "type": "conditional",
+    "key_facts": [
+      "gratuita",
+      "erro da distribuidora",
+      "não paga"
+    ],
+    "response": "Sim, se o corte foi realizado pela distribuição por erros técnicos, então você precisa pagar uma taxa chamada \"religação\". Isso significa que ela pagará uma verificação gratuita antes mesmo do consumo para garantir que nada está errado durante o processo.",
+    "retrieval_scores": [
+      0.7191952466964722,
+      0.6290242075920105,
+      0.605688750743866
+    ],
+    "metrics": {
+      "latency_seconds": 1.78,
+      "timestamp": "2026-04-13T17:31:12.000629",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Se eu consertar o equipamento danificado antes da vistoria da distribuidora, perco o direito ao ressarcimento?",
+    "reference": "Não. O consumidor pode consertar o equipamento por conta própria, sem autorização da distribuidora e antes do término do prazo de vistoria, sem perder o direito ao ressarcimento. É recomendável guardar os documentos comprobatórios (orçamentos, notas fiscais do conserto).",
+    "type": "conditional",
+    "key_facts": [
+      "não perde o direito",
+      "pode consertar",
+      "sem autorização"
+    ],
+    "response": "Sim, se você realizar uma troca de medidores antes que ocorra a vistoria da sua empresa pelo fornecedor, isso garante que você tenha o direito aos custos extras associados às reparações necessárias durante esse período. Portanto, sim, teríamos o direito ao ressarcimento!",
+    "retrieval_scores": [
+      0.6526702046394348,
+      0.650975227355957,
+      0.6414440870285034
+    ],
+    "metrics": {
+      "latency_seconds": 1.96,
+      "timestamp": "2026-04-13T17:31:13.961312",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Se as parcelas do parcelamento de débito estiverem em dia, a distribuidora pode cortar a energia?",
+    "reference": "Não. Durante o parcelamento ativo e com parcelas em dia, o fornecimento não pode ser interrompido pela distribuidora.",
+    "type": "conditional",
+    "key_facts": [
+      "não pode cortar",
+      "parcelamento ativo",
+      "parcelas em dia"
+    ],
+    "response": "Sim, se os pagamentos estão sendo fechados regularmente (com uma taxa mínimo), a distribuição poderia interromper a cobrança de energia caso ocorresse algum problema financeiro ou técnico que comprometesse a segurança operacional. No entanto, isso depende muito dos termos específicos da convenção contratada pela empresa e também exige verificação detalhadas pelos clientes sobre suas condições individuais. É sempre recomendável consultar explicitamente com a distribuidor antes de fazer qualquer alteração nessas regras.",
+    "retrieval_scores": [
+      0.6871766448020935,
+      0.5529536008834839,
+      0.5387512445449829
+    ],
+    "metrics": {
+      "latency_seconds": 3.63,
+      "timestamp": "2026-04-13T17:31:17.594086",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Se o consumidor tem Tarifa Social e consome 100 kWh em um mês, recebe desconto integral na fatura?",
+    "reference": "Não integralmente. O desconto de 100% aplica-se somente aos primeiros 80 kWh. Os 20 kWh excedentes não recebem desconto. Além disso, ICMS e a contribuição de iluminação pública continuam sendo cobrados sobre todo o consumo.",
+    "type": "conditional",
+    "key_facts": [
+      "100%",
+      "80 kWh",
+      "sem desconto acima",
+      "ICMS cobrado"
+    ],
+    "response": "Sim, você pode receber descontos integrantes da tarifa social quando ele for mais que 80 kWh por mês. No entanto, caso contrário, terá apenas um desconto nominal de até 10% ao ano. Portanto, embora seja possível obter algum benefício financeiro através dos seus dados fiscais, será necessário verificar os detalhes específicos antes de tomar decisões comerciais importantes como compra ou venda de produtos.",
+    "retrieval_scores": [
+      0.6902011632919312,
+      0.6692014932632446,
+      0.6195473074913025
+    ],
+    "metrics": {
+      "latency_seconds": 3.15,
+      "timestamp": "2026-04-13T17:31:20.749061",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Se eu não atualizo o CadÚnico há dois anos, ainda tenho direito à Tarifa Social?",
+    "reference": "Não. A falta de atualização do CadÚnico por mais de 2 anos implica perda do benefício da Tarifa Social. É necessário manter o cadastro atualizado para continuar recebendo o desconto.",
+    "type": "conditional",
+    "key_facts": [
+      "não",
+      "perde o benefício",
+      "2 anos",
+      "CadÚnico"
+    ],
+    "response": "Sim, você continua sendo beneficiado pelo Beneficio de Tarifa Social até setembro de 2026! Não precisa fazer nenhuma mudança para ter acesso aos seus custos mensais através dos serviços eletrônicos.",
+    "retrieval_scores": [
+      0.656714677810669,
+      0.5744748115539551,
+      0.5459226369857788
+    ],
+    "metrics": {
+      "latency_seconds": 1.71,
+      "timestamp": "2026-04-13T17:31:22.462327",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Se meu sistema solar foi instalado em 2021, preciso pagar a Tarifa Fio B?",
+    "reference": "Não. Sistemas de geração distribuída conectados antes de janeiro de 2023 mantêm isenção total da Tarifa Fio B por 25 anos a partir da data de conexão.",
+    "type": "conditional",
+    "key_facts": [
+      "não paga",
+      "isenção total",
+      "25 anos",
+      "antes de janeiro de 2023"
+    ],
+    "response": "Sim, você precisa pagar a tarifácia FIOB desde então até 2024! O período inicial incluiu uma isenção completa aos usuários anteriores à implementação das mudanças regulatórias. Portanto, já está coberto pelo novo modelo de tarifa após esse ano.",
+    "retrieval_scores": [
+      0.6259604692459106,
+      0.5506072640419006,
+      0.5268089175224304
+    ],
+    "metrics": {
+      "latency_seconds": 2.77,
+      "timestamp": "2026-04-13T17:31:25.238465",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Se a distribuidora demorar mais de 4 horas para restabelecer energia em área urbana, o que acontece?",
+    "reference": "O consumidor tem direito a compensação automática na fatura seguinte, calculada com base nos indicadores DEC e FEC, sem necessidade de solicitação. Não é necessário ligar ou abrir reclamação para receber o valor.",
+    "type": "conditional",
+    "key_facts": [
+      "compensação automática",
+      "DEC",
+      "FEC",
+      "fatura seguinte"
+    ],
+    "response": "Se uma empresa demoreu mais de 4 horas para restaurar sua cobertura energética em áreas urbanas, isso ocorreria como complicação ou desatendimento à lei específica sobre compensações necessárias às empresas de serviços eletrônicos. A falta de resposta adequada seria considerada negligenciante pela Anatel (Agencia Nacional de Energias Elétricas) e poderia levar à suspensa do fornecimento se não for corrigida imediatamente. Portanto, tal situação exige atitude cautelosa e responsabilidade dos clientes quanto aos processos legais envolvidos nesta questão.",
+    "retrieval_scores": [
+      0.6229749917984009,
+      0.6218783855438232,
+      0.5949084758758545
+    ],
+    "metrics": {
+      "latency_seconds": 5.51,
+      "timestamp": "2026-04-13T17:31:30.752390",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Se a interrupção de energia foi causada por um evento climático extremo, o consumidor ainda tem direito à compensação?",
+    "reference": "Sim. Pelas novas regras aprovadas em outubro de 2025, a compensação é obrigatória a partir de 24 horas sem energia em área urbana e de 48 horas em área rural, mesmo em situações de calamidade ou eventos climáticos extremos.",
+    "type": "conditional",
+    "key_facts": [
+      "sim",
+      "24 horas urbana",
+      "48 horas rural",
+      "mesmo em calamidade"
+    ],
+    "response": "Sim, se uma intervenção de energia for provocado pelo fenômeno climatológico extremo mencionado, como acidentes meteorológios ou incêndias, o consumidor também pode ter direito ao pagamento automatica pela sua fatura subsequentemente. Isso ocorreria porque essas condições podem afetá-lo diretamente através dos custos associados às operações das empresas que forneciam eletricidade. O plano de contingência previsto neste contexto garante que haja recursos disponíveis caso seja necessário manter a segurança energética durante esse período.",
+    "retrieval_scores": [
+      0.6746564507484436,
+      0.6611502766609192,
+      0.6511433124542236
+    ],
+    "metrics": {
+      "latency_seconds": 4.13,
+      "timestamp": "2026-04-13T17:31:34.888042",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Se a distribuidora cobrar um valor indevido na minha fatura, tenho direito a receber de volta apenas o valor cobrado a mais?",
+    "reference": "Não. Conforme o Código de Defesa do Consumidor, aplicável subsidiariamente às relações com distribuidoras, a restituição é em dobro — ou seja, o consumidor recebe o dobro do valor cobrado indevidamente.",
+    "type": "conditional",
+    "key_facts": [
+      "não",
+      "em dobro",
+      "CDC",
+      "restituição"
+    ],
+    "response": "Sim, você tem direito a receber dobro do valor cobrada pela distribuição quando ela forcoar uma situação financeira incorreta. O artigo mencionado está relacionando-se diretamente às condições específicas sobre as quais os consumidores podem ter direito após recebimentos indesejáveis das empresas fornecedoras de energia elétrica.",
+    "retrieval_scores": [
+      0.6610167622566223,
+      0.5388787984848022,
+      0.5220050811767578
+    ],
+    "metrics": {
+      "latency_seconds": 2.46,
+      "timestamp": "2026-04-13T17:31:37.347690",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Se o imóvel que aluguei tem dívida de energia do inquilino anterior, sou obrigado a pagar para ligar a energia?",
+    "reference": "Não. A dívida pertence ao titular da conta (pessoa), não ao imóvel. A distribuidora não pode exigir que o novo morador pague o débito do titular anterior como condição para ligação ou transferência de titularidade.",
+    "type": "conditional",
+    "key_facts": [
+      "não",
+      "dívida pertence ao titular",
+      "não ao imóvel",
+      "não pode exigir"
+    ],
+    "response": "Sim, você está certo! O Código Nacional das Energias Eletrônicas (CNELETRONÁRIA) prevê uma regra chamando-se \"Regranjo sobre Dívidas Antigas\". No entanto, embora seja legal aplicá-lo, muitos profissionais consideram isso pouco eficaz porque as empresas geralmente têm dificuldades em identificar os anos antigos quando há registros financeiros confiáveis disponíveis.\n\nNo entanto, existem algumas opções:\n\n1. **Trocar Médidores**: Isso seria útil apenas se houver algum tipo específico de médiaqueiro disponível onde você possua sua casa. Não existe garantia contra trocas semelhantes nos sistemas modernos.\n\n2. **Transferências Indiretas**: Você poderia tentar fazer uma transição indireta entre diferentes fornecedores de energia até chegar a alguém que tenha sido atendido antes. Mas este método também requer muito tempo e custe dinheiro significativo.\n\nÉ importante lembrar que essas medidas podem ser limitadas dependendo dos termos específicos desses serviços prestadores de serviço. Além disso, certifique-se sempre de verificar todas as condições legais envolventes antes de tomar qualquer decisão relacionada às suas finanças energéticas.",
+    "retrieval_scores": [
+      0.513504147529602,
+      0.46404242515563965,
+      0.45714327692985535
+    ],
+    "metrics": {
+      "latency_seconds": 8.57,
+      "timestamp": "2026-04-13T17:31:45.919563",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Se eu solicitar ressarcimento de um equipamento danificado há 3 anos, ainda tenho direito?",
+    "reference": "Sim. O prazo para solicitar ressarcimento é de até 5 anos após o dano, conforme alinhamento com o Código de Defesa do Consumidor. Contudo, como o pedido não será feito em até 90 dias do dano, não seguirá o rito simplificado — o procedimento será o padrão, com vistoria técnica.",
+    "type": "conditional",
+    "key_facts": [
+      "sim",
+      "5 anos",
+      "não segue rito simplificado",
+      "90 dias"
+    ],
+    "response": "Sim, você possui direito ao ressarcimento se houver uma situação como a mencionada neste trecho. O período máximo que você terá para fazer os requisitos legais é apenas cinco anos desde o evento físico do danos mecânicos. Além disso, as regras sugerem que qualquer reparação deve ser realizada pelo próprio usuário, independentemente das circunstancias envolvidas. Portanto, embora seja possível recorrer aos órgãos competentes quando necessário, esses recursos são limitados às condições descritas aqui.",
+    "retrieval_scores": [
+      0.6550029516220093,
+      0.6173964738845825,
+      0.6109480857849121
+    ],
+    "metrics": {
+      "latency_seconds": 4.22,
+      "timestamp": "2026-04-13T17:31:50.142579",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Um idoso de 70 anos que recebe BPC tem direito à Tarifa Social?",
+    "reference": "Sim. Idosos a partir de 65 anos que recebam o BPC (Benefício de Prestação Continuada) estão entre os grupos com direito à Tarifa Social de Energia Elétrica.",
+    "type": "conditional",
+    "key_facts": [
+      "sim",
+      "BPC",
+      "65 anos",
+      "idoso"
+    ],
+    "response": "Sim, ele possui direito à tarifa social após sua renovação pelo Banco Popular Comercial Brasileiro (BPC). Portanto, você está certo! Seu beneficiário será considerando-se uma pessoa mais velha para receber as recompensas dos serviços públicos brasileiros como a luz pública.",
+    "retrieval_scores": [
+      0.5968918800354004,
+      0.5878651142120361,
+      0.5677740573883057
+    ],
+    "metrics": {
+      "latency_seconds": 2.83,
+      "timestamp": "2026-04-13T17:31:52.974816",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Uma família quilombola inscrita no CadÚnico tem direito à Tarifa Social mesmo que sua renda per capita seja superior a ½ salário mínimo?",
+    "reference": "Sim. Famílias indígenas e quilombolas inscritas no CadÚnico têm direito à Tarifa Social independentemente do critério de renda per capita de ½ salário mínimo, pois constituem um grupo específico contemplado pela Lei nº 15.235/2025.",
+    "type": "conditional",
+    "key_facts": [
+      "sim",
+      "quilombola",
+      "CadÚnico",
+      "independente da renda"
+    ],
+    "response": "Sim, as famílias quilombolas podem ter acesso ao Descontrole Social mesmo quando suas rendas são superiores a 80% dos R$ 790 mês. O desconto será aplicável apenas aos itens mencionados:\n\n- Equipamentos elétricos em seus trâmites (relatórios médios).\n- Famosos serviços como água potável, luz pública, etc., conforme especificada pelo sistema local.\n\nÉ importante notar que esses benefícios devem ser avaliados pela autorização específica do governo sul-americano sobre os recursos disponíveis para este tipo de programa social. Além disso, há limitações quanto às quantidades permitidos durante todo o ano. Se precisarem saber mais detalhes específicos, seria melhor consultar diretamente com órgãos governamentais relevantes.",
+    "retrieval_scores": [
+      0.7256160378456116,
+      0.6683048009872437,
+      0.6510183215141296
+    ],
+    "metrics": {
+      "latency_seconds": 5.8,
+      "timestamp": "2026-04-13T17:31:58.781808",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  },
+  {
+    "question": "Se a distribuidora não responder ao meu pedido de ressarcimento em 10 dias, o que posso fazer?",
+    "reference": "O consumidor pode recorrer à ANEEL pelo telefone 167 (gratuito) ou portal aneel.gov.br, ao PROCON estadual ou ao Juizado Especial Cível (Pequenas Causas), que não exige advogado para casos de menor complexidade e valor.",
+    "type": "conditional",
+    "key_facts": [
+      "ANEEL",
+      "167",
+      "PROCON",
+      "Juizado Especial",
+      "sem advogado"
+    ],
+    "response": "Se você receber uma rejeição imediata pelo menos em dez dias, aqui estão algumas opções:\n\n1. **Receba o resfriado**: Você tem até cinco meses para pagar o valor original dos serviços prestados.\n   \n2. **Ligue procon**: O Procon está disponível para ajudá-lo se precisar de ajuda legal sobre esse problema.\n\n3. **Fale conosco diretamente**: Faça contato através das redes sociais oficiais da Anel/PROCON ou envie-mail aos números fornecidos nos trechos anteriormente citados.\n\n4. **Escolha outro serviço**: Certifique-se de verificar qual seria melhor escolher entre os dois possíveis alternativas disponíveis pelas empresas contratantes.\n\nÉ importante lembrar que esses recursos são apenas sugestões e podem variar dependendo do estado brasileiro onde reside sua residência. Além disso, sempre haverá limitações legais quanto às restituições financeiras.",
+    "retrieval_scores": [
+      0.6406353712081909,
+      0.6004990339279175,
+      0.5997545123100281
+    ],
+    "metrics": {
+      "latency_seconds": 7.05,
+      "timestamp": "2026-04-13T17:32:05.829926",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "top_k": 3
+    }
+  }
+]

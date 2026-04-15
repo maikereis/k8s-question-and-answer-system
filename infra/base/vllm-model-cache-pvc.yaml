@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: vllm-model-cache-pvc
+spec:
+  # vLLM only ever runs as 1 replica, so RWO is fine and cheaper.
+  accessModes: [ReadWriteOnce]
+  resources:
+    requests:
+      storage: 20Gi   # EnerGuia-0.5B weights + vLLM's own cache artefacts
+  # storageClassName: fast-ssd   # Prefer an SSD-backed class for faster model load
